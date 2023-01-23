@@ -1,3 +1,4 @@
+# testing custom tkinter by BF
 import tkinter
 import tkinter.messagebox
 import customtkinter
@@ -78,7 +79,7 @@ class App(customtkinter.CTk):
             20, 0), pady=(20, 20), sticky="nsew")
 
         self.main_button_1 = customtkinter.CTkButton(
-            master=self, fg_color="transparent", border_width=2, text_color=("gray10", "#DCE4EE"))
+            master=self, fg_color="transparent", )
         self.main_button_1.grid(row=3, column=3, padx=(
             20, 20), pady=(20, 20), sticky="nsew")
 

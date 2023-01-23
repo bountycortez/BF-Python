@@ -1,0 +1,35 @@
+{
+    "version": "1.0",
+    "menuitems": [
+        {
+            "cmdname": "PWD",
+            "cmdoutput": true,
+            "cmd": "pwd"
+        },
+        {
+            "cmdname": "LS .",
+            "cmdoutput": true,
+            "cmd": "ls -al ."
+        },
+        {
+            "cmdname": "FIND *.pdf",
+            "cmdoutput": true,
+            "cmd": "find /Users/berndflunger/Documents -name \"*.pdf\" -print"
+        },
+        {
+            "cmdname": "SILENTFIND *.*",
+            "cmdoutput": false,
+            "cmd": "find /Users/berndflunger/Documents -name \"*.*\" -print"
+        },
+        {
+            "cmdname": "LS *.py",
+            "cmdoutput": true,
+            "cmd": "ls -al *.py"
+        },
+        {
+            "cmdname": "SLEEP 10",
+            "cmdoutput": true,
+            "cmd": "sleep 10"
+        }
+    ]
+}
