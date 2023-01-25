@@ -42,6 +42,8 @@ RETVAL_JSON_PARSE_ERROR=(10, "JSON-PARSE-ERROR")
 RETVAL_NO_MENUITEMS_ERROR=(10, "NO-MENUITEMS-ERROR")
 RETVAL_SESSIONLOGFILE_OPEN_ERROR=(10, "SESSION-LOGFILE-OPEN-ERROR")
 
+GUI_MINWIDTH=600
+GUI_MINHEIGHT=400
 GUI_REFRESH_FAST = 50 # milliseconds
 GUI_REFRESH_SLOW = 500 # milliseconds
 GUI_MAXQUEUESIZE = 5000
@@ -359,13 +361,28 @@ class GuiApp(App):
     def setup_mainwindow(self, cols, rows):
 
         # configure main window grid layout (cols x rows)
-        self.grid_columnconfigure((0,cols-1), weight=0)
-        self.grid_columnconfigure(1, weight=3)
-        self.grid_rowconfigure((0,1,2,3), weight=1)
+        if cols<3:
+            cols=3
+        if rows<10:
+            rows=10
 
+        self.minsize(GUI_MINWIDTH,GUI_MINHEIGHT)
+
+        #main control column    
+        self.grid_columnconfigure((0,cols-1), weight=0, minsize=200)
+
+        #textbox column
+        self.grid_columnconfigure(1, weight=3, minsize=300)
+        
+        row=0
+        while row < rows:
+            self.grid_rowconfigure(row, weight=1)
+            row+=1
+        #self.grid_rowconfigure((0,1,2,3,4), weight=1)
+            
         # create apperance and scaling choice
         self.utils_frame = customtkinter.CTkFrame(self, corner_radius=0, fg_color="transparent") # , fg_color='red'
-        self.utils_frame.grid(row=0, column=0, rowspan=5, sticky="nsew")
+        self.utils_frame.grid(row=0, column=0, rowspan=rows, sticky="nsew")
         self.utils_frame.grid_columnconfigure(0, weight=0)
 
         self.appearance_mode_label = customtkinter.CTkLabel(self.utils_frame, text="Appearance Mode:", anchor="w")
@@ -411,12 +428,12 @@ if not started in debugging mode
 
         # create textbox
         self.textbox_frame = customtkinter.CTkFrame(self, width=500, corner_radius=0) #, fg_color='green'
-        self.textbox_frame.grid(row=0, column=1, rowspan=5, sticky="nsew")
+        self.textbox_frame.grid(row=0, column=1, rowspan=rows, sticky="nsew")
         self.textbox_frame.grid_rowconfigure(0, weight=4)
-        self.textbox_frame.grid_columnconfigure(0, weight=4)
+        self.textbox_frame.grid_columnconfigure(0, weight=4) # minsize=300
 
         self.textbox = customtkinter.CTkTextbox(self.textbox_frame, spacing1=0, spacing2=0, spacing3=5) # , fg_color="blue"
-        self.textbox.grid(row=0, column=0, rowspan=4, padx=(10, 10), pady=(10, 10), sticky="nsew")
+        self.textbox.grid(row=0, column=0, padx=(10, 10), pady=(10, 10), sticky="nsew")
 
         ##textbox workaround because in customtkinter < 5.0.5 textbox freezed gui with a lot of input
         ##if customtkinter.get_appearance_mode()=="Dark":
@@ -426,7 +443,7 @@ if not started in debugging mode
         ##self.textbox = tkinter.Text(master=self.textbox_frame, font=("Roboto Medium",12),
         ##                    bg=customtkinter.ThemeManager.theme["CTkFrame"]["fg_color"][o],
         ##                    fg=customtkinter.ThemeManager.theme["CTkLabel"]["text_color"][o], relief="flat")
-        ##self.textbox.grid(row=0, column=0, rowspan=4, padx=(20, 20), pady=(20, 20), sticky="nsew")
+        ##self.textbox.grid(row=0, column=0, padx=(20, 20), pady=(20, 20), sticky="nsew")
         ##self.textbox_scrollbar = customtkinter.CTkScrollbar(self.textbox_frame, command=self.textbox.yview,
         ##                                       fg_color=customtkinter.ThemeManager.theme["CTkFrame"]["fg_color"][o])
         ##self.textbox_scrollbar.grid(row=0, column=1, sticky="ns", pady=5)
@@ -873,7 +890,7 @@ class XmenuApp(GuiApp):
         self.load_commands()
 
         # initialize the mainwindow
-        self.setup_mainwindow(cols=3,rows=self.menuitems)
+        self.setup_mainwindow(cols=3,rows=len(self.menuitems))
 
         # setup command column in the gui
         self.setup_commands()

@@ -1,31 +1,31 @@
-XMENU 2023-01-24 20:30:47,051 Thread [MainThread] 4540950016 INFO: Starting XMENU (logfile=./xmenu.log,encoding=utf-8)...
-XMENU 2023-01-24 20:30:47,051 Thread [MainThread] 4540950016 INFO: Current directory: /Users/berndflunger/Documents/BF-Python/XMENU
-XMENU 2023-01-24 20:30:47,051 Thread [MainThread] 4540950016 INFO: Current encoding: utf-8
-XMENU 2023-01-24 20:30:47,051 Thread [MainThread] 4540950016 INFO: Found Option log: info
-XMENU 2023-01-24 20:30:47,051 Thread [MainThread] 4540950016 INFO: Found Option logdir: .
-XMENU 2023-01-24 20:30:47,052 Thread [MainThread] 4540950016 INFO: Found Option cmdfiledir: .
-XMENU 2023-01-24 20:30:47,052 Thread [MainThread] 4540950016 INFO: Inifilename: /Users/berndflunger/.XMENU
-XMENU 2023-01-24 20:30:47,052 Thread [MainThread] 4540950016 INFO: LOGDIR set to: .
-XMENU 2023-01-24 20:30:47,052 Thread [MainThread] 4540950016 INFO: CMDFILEDIR set to: .
-XMENU 2023-01-24 20:30:47,052 Thread [MainThread] 4540950016 INFO: Screen width: 3360
-XMENU 2023-01-24 20:30:47,052 Thread [MainThread] 4540950016 INFO: Screen height:1890
-XMENU 2023-01-24 20:30:47,052 Thread [MainThread] 4540950016 INFO: Window Width: 1947
-XMENU 2023-01-24 20:30:47,053 Thread [MainThread] 4540950016 INFO: Window Height: 1017
-XMENU 2023-01-24 20:30:47,053 Thread [MainThread] 4540950016 INFO: Window X: 165
-XMENU 2023-01-24 20:30:47,053 Thread [MainThread] 4540950016 INFO: Window Y: 157
-XMENU 2023-01-24 20:30:47,054 Thread [MainThread] 4540950016 INFO: Session logfile is ./xmenu-session.log...
-XMENU 2023-01-24 20:30:47,054 Thread [MainThread] 4540950016 INFO: Commandfile is ./xmenu.json...
-XMENU 2023-01-24 20:30:47,055 Thread [MainThread] 4540950016 INFO: {'version': '1.0', 'menuitems': [{'cmdname': 'PWD', 'cmdoutput': True, 'cmd': 'pwd'}, {'cmdname': 'LS .', 'cmdoutput': True, 'cmd': 'ls -al .'}, {'cmdname': 'FIND *.pdf', 'cmdoutput': True, 'cmd': 'find /Users/berndflunger/Documents -name "*.pdf" -print'}, {'cmdname': 'SILENTFIND *.*', 'cmdoutput': False, 'cmd': 'find /Users/berndflunger/Documents -name "*.*" -print'}, {'cmdname': 'LS *.py', 'cmdoutput': True, 'cmd': 'ls -al *.py'}, {'cmdname': 'SLEEP 10', 'cmdoutput': True, 'cmd': 'sleep 10'}]}
-XMENU 2023-01-24 20:30:47,055 Thread [MainThread] 4540950016 INFO: Commandfile version: 1.0
-XMENU 2023-01-24 20:30:47,278 Thread [MainThread] 4540950016 INFO: Appearance set to System...
-XMENU 2023-01-24 20:30:47,288 Thread [MainThread] 4540950016 INFO: Scaling set to 100%...
-XMENU 2023-01-24 20:30:47,303 Thread [MainThread] 4540950016 INFO: 1. Menuitem: PWD: pwd,True
-XMENU 2023-01-24 20:30:47,305 Thread [MainThread] 4540950016 INFO: 2. Menuitem: LS .: ls -al .,True
-XMENU 2023-01-24 20:30:47,307 Thread [MainThread] 4540950016 INFO: 3. Menuitem: FIND *.pdf: find /Users/berndflunger/Documents -name "*.pdf" -print,True
-XMENU 2023-01-24 20:30:47,309 Thread [MainThread] 4540950016 INFO: 4. Menuitem: SILENTFIND *.*: find /Users/berndflunger/Documents -name "*.*" -print,False
-XMENU 2023-01-24 20:30:47,311 Thread [MainThread] 4540950016 INFO: 5. Menuitem: LS *.py: ls -al *.py,True
-XMENU 2023-01-24 20:30:47,313 Thread [MainThread] 4540950016 INFO: 6. Menuitem: SLEEP 10: sleep 10,True
-XMENU 2023-01-24 20:30:50,256 Thread [MainThread] 4540950016 INFO: Shutting down (current thread count: 1)...
-XMENU 2023-01-24 20:30:50,256 Thread [MainThread] 4540950016 INFO: Waiting for work in queues to be done...
-XMENU 2023-01-24 20:30:50,256 Thread [MainThread] 4540950016 INFO: Closed session logfile ./xmenu-session.log.
-XMENU 2023-01-24 20:30:50,257 Thread [MainThread] 4540950016 INFO: Done XMENU (retval=(0, 'OK'))!
+XMENU 2023-01-25 18:50:01,204 Thread [MainThread] 4506715648 INFO: Starting XMENU (logfile=./xmenu.log,encoding=utf-8)...
+XMENU 2023-01-25 18:50:01,204 Thread [MainThread] 4506715648 INFO: Current directory: /Users/berndflunger/Documents/BF-Python/XMENU
+XMENU 2023-01-25 18:50:01,204 Thread [MainThread] 4506715648 INFO: Current encoding: utf-8
+XMENU 2023-01-25 18:50:01,205 Thread [MainThread] 4506715648 INFO: Found Option log: info
+XMENU 2023-01-25 18:50:01,205 Thread [MainThread] 4506715648 INFO: Found Option logdir: .
+XMENU 2023-01-25 18:50:01,205 Thread [MainThread] 4506715648 INFO: Found Option cmdfiledir: .
+XMENU 2023-01-25 18:50:01,205 Thread [MainThread] 4506715648 INFO: Inifilename: /Users/berndflunger/.XMENU
+XMENU 2023-01-25 18:50:01,205 Thread [MainThread] 4506715648 INFO: LOGDIR set to: .
+XMENU 2023-01-25 18:50:01,205 Thread [MainThread] 4506715648 INFO: CMDFILEDIR set to: .
+XMENU 2023-01-25 18:50:01,205 Thread [MainThread] 4506715648 INFO: Screen width: 3360
+XMENU 2023-01-25 18:50:01,205 Thread [MainThread] 4506715648 INFO: Screen height:1890
+XMENU 2023-01-25 18:50:01,206 Thread [MainThread] 4506715648 INFO: Window Width: 600
+XMENU 2023-01-25 18:50:01,206 Thread [MainThread] 4506715648 INFO: Window Height: 400
+XMENU 2023-01-25 18:50:01,206 Thread [MainThread] 4506715648 INFO: Window X: 417
+XMENU 2023-01-25 18:50:01,206 Thread [MainThread] 4506715648 INFO: Window Y: 224
+XMENU 2023-01-25 18:50:01,207 Thread [MainThread] 4506715648 INFO: Session logfile is ./xmenu-session.log...
+XMENU 2023-01-25 18:50:01,207 Thread [MainThread] 4506715648 INFO: Commandfile is ./xmenu.json...
+XMENU 2023-01-25 18:50:01,208 Thread [MainThread] 4506715648 INFO: {'version': '1.0', 'menuitems': [{'cmdname': 'PWD', 'cmdoutput': True, 'cmd': 'pwd'}, {'cmdname': 'LS .', 'cmdoutput': True, 'cmd': 'ls -al .'}, {'cmdname': 'FIND *.pdf', 'cmdoutput': True, 'cmd': 'find /Users/berndflunger/Documents -name "*.pdf" -print'}, {'cmdname': 'SILENTFIND *.*', 'cmdoutput': False, 'cmd': 'find /Users/berndflunger/Documents -name "*.*" -print'}, {'cmdname': 'LS *.py', 'cmdoutput': True, 'cmd': 'ls -al *.py'}, {'cmdname': 'SLEEP 10', 'cmdoutput': True, 'cmd': 'sleep 10'}]}
+XMENU 2023-01-25 18:50:01,208 Thread [MainThread] 4506715648 INFO: Commandfile version: 1.0
+XMENU 2023-01-25 18:50:01,387 Thread [MainThread] 4506715648 INFO: Appearance set to System...
+XMENU 2023-01-25 18:50:01,399 Thread [MainThread] 4506715648 INFO: Scaling set to 100%...
+XMENU 2023-01-25 18:50:01,413 Thread [MainThread] 4506715648 INFO: 1. Menuitem: PWD: pwd,True
+XMENU 2023-01-25 18:50:01,416 Thread [MainThread] 4506715648 INFO: 2. Menuitem: LS .: ls -al .,True
+XMENU 2023-01-25 18:50:01,418 Thread [MainThread] 4506715648 INFO: 3. Menuitem: FIND *.pdf: find /Users/berndflunger/Documents -name "*.pdf" -print,True
+XMENU 2023-01-25 18:50:01,420 Thread [MainThread] 4506715648 INFO: 4. Menuitem: SILENTFIND *.*: find /Users/berndflunger/Documents -name "*.*" -print,False
+XMENU 2023-01-25 18:50:01,422 Thread [MainThread] 4506715648 INFO: 5. Menuitem: LS *.py: ls -al *.py,True
+XMENU 2023-01-25 18:50:01,424 Thread [MainThread] 4506715648 INFO: 6. Menuitem: SLEEP 10: sleep 10,True
+XMENU 2023-01-25 18:50:07,339 Thread [MainThread] 4506715648 INFO: Shutting down (current thread count: 1)...
+XMENU 2023-01-25 18:50:07,340 Thread [MainThread] 4506715648 INFO: Waiting for work in queues to be done...
+XMENU 2023-01-25 18:50:07,340 Thread [MainThread] 4506715648 INFO: Closed session logfile ./xmenu-session.log.
+XMENU 2023-01-25 18:50:07,341 Thread [MainThread] 4506715648 INFO: Done XMENU (retval=(0, 'OK'))!
