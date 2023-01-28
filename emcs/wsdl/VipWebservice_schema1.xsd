@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="urn:http://vst.bmf.gv.at/vip/v01" xmlns:tns="urn:http://vst.bmf.gv.at/vip/v01" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="acknowledgeMessages" type="tns:acknowledgeMessages" />
+
+	<xs:element name="acknowledgeMessagesResponse" type="tns:acknowledgeMessagesResponse" />
+
+	<xs:element name="getAllMessages" type="tns:getAllMessages" />
+
+	<xs:element name="getAllMessagesResponse" type="tns:getAllMessagesResponse" />
+
+	<xs:element name="getAllMessagesManualAcknowledgement" type="tns:getAllMessagesManualAcknowledgement" />
+
+	<xs:element name="getAllMessagesManualAcknowledgementResponse" type="tns:getAllMessagesManualAcknowledgementResponse" />
+
+	<xs:element name="getMessagesForVID" type="tns:getMessagesForVID" />
+
+	<xs:element name="getMessagesForVIDManualAcknowledgement" type="tns:getMessagesForVIDManualAcknowledgement" />
+
+	<xs:element name="getMessagesForVIDManualAcknowledgementResponse" type="tns:getMessagesForVIDManualAcknowledgementResponse" />
+
+	<xs:element name="getMessagesForVIDResponse" type="tns:getMessagesForVIDResponse" />
+
+	<xs:element name="getProductCategoryForVID" type="tns:getProductCategoryForVID" />
+
+	<xs:element name="getProductCategoryForVIDResponse" type="tns:getProductCategoryForVIDResponse" />
+
+	<xs:element name="getTypeForVID" type="tns:getTypeForVID" />
+
+	<xs:element name="getTypeForVIDResponse" type="tns:getTypeForVIDResponse" />
+
+	<xs:element name="recover" type="tns:recover" />
+
+	<xs:element name="recoverResponse" type="tns:recoverResponse" />
+
+	<xs:element name="sendMessage" type="tns:sendMessage" />
+
+	<xs:element name="sendMessageResponse" type="tns:sendMessageResponse" />
+
+	<xs:element name="setWaiting" type="tns:setWaiting" />
+
+	<xs:element name="setWaitingResponse" type="tns:setWaitingResponse" />
+
+	<xs:element name="testService" type="tns:testService" />
+
+	<xs:element name="testServiceResponse" type="tns:testServiceResponse" />
+
+	<xs:element name="verifyMessage" type="tns:verifyMessage" />
+
+	<xs:element name="verifyMessageResponse" type="tns:verifyMessageResponse" />
+
+	<xs:complexType name="testService">
+		<xs:sequence />
+	</xs:complexType>
+
+	<xs:complexType name="testServiceResponse">
+		<xs:sequence>
+			<xs:element name="response" type="xs:string" form="qualified" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getAllMessagesManualAcknowledgement">
+		<xs:sequence>
+			<xs:element name="input" type="tns:InputBean2" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getAllMessagesManualAcknowledgementResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getAllMessages">
+		<xs:sequence>
+			<xs:element name="system" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getAllMessagesResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="recover">
+		<xs:sequence>
+			<xs:element name="input" type="tns:VipWebserviceBean" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="recoverResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="setWaiting">
+		<xs:sequence>
+			<xs:element name="input" type="tns:InputBean2" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="setWaitingResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getMessagesForVIDManualAcknowledgement">
+		<xs:sequence>
+			<xs:element name="input" type="tns:InputBean2" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getMessagesForVIDManualAcknowledgementResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getMessagesForVID">
+		<xs:sequence>
+			<xs:element name="vid" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getMessagesForVIDResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="acknowledgeMessages">
+		<xs:sequence>
+			<xs:element name="input" type="tns:InputBean2" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="acknowledgeMessagesResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getTypeForVID">
+		<xs:sequence>
+			<xs:element name="vid" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getTypeForVIDResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getProductCategoryForVID">
+		<xs:sequence>
+			<xs:element name="vid" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="getProductCategoryForVIDResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="sendMessage">
+		<xs:sequence>
+			<xs:element name="input" type="tns:VipWebserviceBean" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="sendMessageResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="verifyMessage">
+		<xs:sequence>
+			<xs:element name="input" type="tns:VipWebserviceBean" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="verifyMessageResponse">
+		<xs:sequence>
+			<xs:element name="response" type="tns:VipWebserviceBean" form="qualified" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="VipWebserviceBean">
+		<xs:sequence>
+			<xs:element name="call_uuid" type="xs:string" minOccurs="0" />
+			<xs:element name="operator" type="xs:string" />
+			<xs:element name="system" type="xs:string" />
+			<xs:element name="contentType" type="xs:int" />
+			<xs:element name="messageType" type="xs:string" minOccurs="0" />
+			<xs:element name="messageID" type="xs:string" minOccurs="0" />
+			<xs:element name="message" type="xs:string" minOccurs="0" />
+			<xs:element name="attachment" type="xs:base64Binary" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="InputBean2">
+		<xs:sequence>
+			<xs:element name="call_uuid" type="xs:string" />
+			<xs:element name="operator" type="xs:string" minOccurs="0" />
+			<xs:element name="system" type="xs:string" />
+			<xs:element name="responseMessageLimit" type="tns:responseMessageLimitType" minOccurs="0" />
+			<xs:element name="messages" type="tns:Messages" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="responseMessageLimitType">
+      <xs:restriction base="xs:int">
+         <xs:minInclusive value="5"/>
+         <xs:maxInclusive value="20"/>
+      </xs:restriction>
+   </xs:simpleType>
+   
+	<xs:complexType name="Messages">
+		<xs:sequence>
+			<xs:element name="messageID" type="xs:string" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>	
+
+</xs:schema>
+

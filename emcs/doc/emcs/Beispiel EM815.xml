@@ -1,0 +1,80 @@
+<ns23:EM815 xmlns:ns23="http://brz.gv.at/zo/emcs/v30/em815/ie" xmlns:ns2="http://brz.gv.at/zo/emcs/v30/com" xmlns:ns45="http://brz.gv.at/zo/emcs/v30/tms">
+	<ns23:Header>
+		<ns45:MessageSender>NDEA.AT</ns45:MessageSender>
+		<ns45:MessageRecipient>NDEA.LU</ns45:MessageRecipient>
+		<ns45:DateOfPreparation>2023-01-25</ns45:DateOfPreparation>
+		<ns45:TimeOfPreparation>21:08:28</ns45:TimeOfPreparation>
+		<ns45:MessageIdentifier>e3b0e661-aa9d-4302-b89d-854aace52a5f</ns45:MessageIdentifier>
+		<ns45:Version>4.0</ns45:Version>
+	</ns23:Header>
+	<ns23:Body>
+		<ns23:SubmittedDraftOfEAD>
+			<ns23:ConsigneeTrader language="de">
+				<ns2:Traderid>LUCCEN123456K</ns2:Traderid>
+			</ns23:ConsigneeTrader>
+			<ns23:ConsignorTrader language="de">
+				<ns2:TraderExciseNumber>ATCCOR123456K</ns2:TraderExciseNumber>
+			</ns23:ConsignorTrader>
+			<ns23:PlaceOfDispatchTrader language="de">
+				<ns2:TraderName>EMCS Lagerbetrieb 1</ns2:TraderName>
+				<ns2:StreetName>Hintere Zollamtsstraße</ns2:StreetName>
+				<ns2:StreetNumber>2B</ns2:StreetNumber>
+				<ns2:Postcode>1030</ns2:Postcode>
+				<ns2:City>Wien</ns2:City>
+			</ns23:PlaceOfDispatchTrader>
+			<ns23:DeliveryPlaceTrader language="de">
+				<ns2:Traderid>LU998877</ns2:Traderid>
+				<ns2:TraderName>Name</ns2:TraderName>
+				<ns2:StreetName>Straße</ns2:StreetName>
+				<ns2:StreetNumber>1</ns2:StreetNumber>
+				<ns2:Postcode>80333</ns2:Postcode>
+				<ns2:City>Luxemburg</ns2:City>
+			</ns23:DeliveryPlaceTrader>
+			<ns23:HeaderEad>
+				<ns23:DestinationTypeCode>9</ns23:DestinationTypeCode>
+				<ns23:JourneyTime>D01</ns23:JourneyTime>
+				<ns23:TransportArrangement>2</ns23:TransportArrangement>
+			</ns23:HeaderEad>
+			<ns23:TransportMode>
+				<ns2:TransportModeCode>3</ns2:TransportModeCode>
+			</ns23:TransportMode>
+			<ns23:MovementGuarantee>
+				<ns23:GuarantorTypeCode>4</ns23:GuarantorTypeCode>
+			</ns23:MovementGuarantee>
+			<ns23:BodyEad>
+				<ns23:BodyRecordUniqueReference>1</ns23:BodyRecordUniqueReference>
+				<ns23:ExciseProductCode>W200</ns23:ExciseProductCode>
+				<ns23:CnCode>22042107</ns23:CnCode>
+				<ns23:Quantity>500</ns23:Quantity>
+				<ns23:GrossWeight>700</ns23:GrossWeight>
+				<ns23:NetWeight>500</ns23:NetWeight>
+				<ns23:AlcoholicStrengthByVolumeInPercentage>12.5</ns23:AlcoholicStrengthByVolumeInPercentage>
+				<ns23:CommercialDescription language="de">Wein</ns23:CommercialDescription>
+				<ns23:BrandNameOfProducts language="de">Winzer</ns23:BrandNameOfProducts>
+				<ns23:Package>
+					<ns2:KindOfPackages>BO</ns2:KindOfPackages>
+					<ns2:NumberOfPackages>500</ns2:NumberOfPackages>
+				</ns23:Package>
+				<ns23:WineProduct>
+					<ns2:WineProductCategory>1</ns2:WineProductCategory>
+					<ns2:WineGrowingZoneCode>2</ns2:WineGrowingZoneCode>
+					<ns2:WineOperation>
+						<ns2:WineOperationCode>0</ns2:WineOperationCode>
+					</ns2:WineOperation>
+				</ns23:WineProduct>
+			</ns23:BodyEad>
+			<ns23:EadDraft>
+				<ns23:LocalReferenceNumber>20230125 BS-12_DP</ns23:LocalReferenceNumber>
+				<ns23:InvoiceNumber>123456</ns23:InvoiceNumber>
+				<ns23:InvoiceDate>2023-01-25</ns23:InvoiceDate>
+				<ns23:OriginTypeCode>3</ns23:OriginTypeCode>
+				<ns23:DateOfDispatch>2023-01-25</ns23:DateOfDispatch>
+				<ns23:TimeOfDispatch>21:15:59</ns23:TimeOfDispatch>
+			</ns23:EadDraft>
+			<ns23:TransportDetails>
+				<ns2:TransportUnitCode>2</ns2:TransportUnitCode>
+				<ns2:IdentityOfTransportUnits>W903DA</ns2:IdentityOfTransportUnits>
+			</ns23:TransportDetails>
+		</ns23:SubmittedDraftOfEAD>
+	</ns23:Body>
+</ns23:EM815>

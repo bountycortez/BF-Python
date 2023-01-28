@@ -8,25 +8,28 @@ import sys
 import argparse
 import logging
 import configparser
+import time
+import datetime
+import json
+
 import tkinter
 import idlelib
 from idlelib.tooltip import Hovertip
 import customtkinter
 
-import json
 import threading
 import queue
 import functools
 import subprocess
-import time
-import datetime
 
-import pprint
+#import pprint
 #import inspect
 
 
 
-# constants
+#---------------------------------------------------------------------------------------------------------------------------
+# CONSTANTS
+#---------------------------------------------------------------------------------------------------------------------------
 PRGNAME = 'XMENU'
 PRGDESCRIPTION='''
 A Command Menu Programm
@@ -59,36 +62,20 @@ customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("blue")
 
 
-# basic app class
-class App(customtkinter.CTk):
+#---------------------------------------------------------------------------------------------------------------------------
+# BASIC APP CLASS
+#---------------------------------------------------------------------------------------------------------------------------
+class App():
+    """The Basic App Class with logging and command line options"""
 
-    # extend destroy()
-    def destroy(self):
-        self.save_settings()
-        if self.retval>RETVAL_OK:
-            self.logger.critical(f"Failed {PRGNAME} (retval={self.retval})!")
-        else:
-            self.logger.info(f"Done {PRGNAME} (retval={self.retval})!")
-        return super().destroy()
-
-
-    # extend initialize
+    # define initialize
     def __init__(self):
-        super().__init__()
 
         # return value
         self.retval=RETVAL_OK
 
         # system encoding
         self.encoding=sys.getdefaultencoding()
-
-        # get the current screen width and height
-        self.screen_width = self.winfo_screenwidth()
-        self.screen_height = self.winfo_screenheight()
-        self.win_width = int(self.screen_width / 3)
-        self.win_height = int(2 * self.screen_height / 3)
-        self.win_x = self.win_width
-        self.win_y = int(self.win_height-self.win_height/2)
 
         # app cconfig/ini filename
         self.inifilename = os.path.join(os.path.expanduser("~"),"."+PRGNAME)
@@ -151,22 +138,18 @@ class App(customtkinter.CTk):
         # analyze app command line arguments
         self.analyze_arguments()
 
-        # log the screen size
-        self.logger.info(f"Screen width: {self.screen_width}")
-        self.logger.info(f"Screen height:{self.screen_height}")
-        self.logger.info(f"Window Width: {self.win_width}")
-        self.logger.info(f"Window Height: {self.win_height}")
-        self.logger.info(f"Window X: {self.win_x}")
-        self.logger.info(f"Window Y: {self.win_y}")
 
-        # configure main window
-        self.title(PRGNAME)
-        self.win_geometry = f'{self.win_width}x{self.win_height}+{self.win_x}+{self.win_y}'
-        self.logger.debug(f"Window Geometry: {self.win_geometry}")
-        self.geometry(self.win_geometry)
+    # define cleanup
+    def cleanup(self):
+        self.write_settings()
+        if self.retval>RETVAL_OK:
+            self.logger.critical(f"Failed {PRGNAME} (retval={self.retval})!")
+        else:
+            self.logger.info(f"Done {PRGNAME} (retval={self.retval})!")
+        return
 
 
-    # define arguments (detail in child class)
+    # define command line arguments (detail in child class)
     def setup_arguments(self) -> bool:
         """
         EXAMPLE:
@@ -204,7 +187,7 @@ class App(customtkinter.CTk):
         return True
 
 
-    #parse arguments (detail in child class)
+    #parse command line arguments (detail in child class)
     def analyze_arguments(self) -> bool:
         
         # logdir already set earlier
@@ -221,17 +204,8 @@ class App(customtkinter.CTk):
 
 
     # save settings in inifile (detail in child class)
-    def save_settings(self) -> bool:
+    def write_settings(self) -> bool:
 
-        self.appconfig["WINDOW"]={}
-        x=self.winfo_x()
-        self.appconfig["WINDOW"]["x"] = f'{x}'
-        y=self.winfo_y()
-        self.appconfig["WINDOW"]["y"] = f'{y}'
-        width=self.winfo_width()
-        self.appconfig["WINDOW"]["width"] = f'{width}'
-        height=self.winfo_height()
-        self.appconfig["WINDOW"]["height"] = f'{height}'
         try:
             with open(self.inifilename, 'w', encoding=self.encoding) as inifile:
                 self.appconfig.write(inifile)
@@ -251,12 +225,120 @@ class App(customtkinter.CTk):
         foundfiles = self.appconfig.read(self.inifilename, encoding=self.encoding)
         if not foundfiles:
             self.logger.info(f"Have not found app config file {self.inifilename}, creating one ...")
-            self.save_settings()
+            self.write_settings()
             foundfiles = self.appconfig.read(self.inifilename, encoding=self.encoding)
             if not foundfiles:
                 self.logger.warning(f"Warning: Have not found and cannot write app config file {self.inifilename}!")
                 return False
 
+        return True
+
+
+
+
+#---------------------------------------------------------------------------------------------------------------------------
+# BASIC GUI APP CLASS
+#---------------------------------------------------------------------------------------------------------------------------
+class GuiApp(App,customtkinter.CTk):
+    """The Basic CustomTkinter GUI App Class"""
+
+    # extend the class initialization
+    def __init__(self):
+
+        customtkinter.CTk.__init__(self)
+
+        # get the current screen width and height
+        self.screen_width = self.winfo_screenwidth()
+        self.screen_height = self.winfo_screenheight()
+        self.win_width = int(self.screen_width / 3)
+        self.win_height = int(2 * self.screen_height / 3)
+        self.win_x = self.win_width
+        self.win_y = int(self.win_height-self.win_height/2)
+
+        # after geometry is defined (otherwise read_settings does not work correctly)
+        App.__init__(self)
+
+        # log the screen size
+        self.logger.info(f"Screen width: {self.screen_width}")
+        self.logger.info(f"Screen height:{self.screen_height}")
+        self.logger.info(f"Window Width: {self.win_width}")
+        self.logger.info(f"Window Height: {self.win_height}")
+        self.logger.info(f"Window X: {self.win_x}")
+        self.logger.info(f"Window Y: {self.win_y}")
+
+        # configure main window
+        self.title(PRGNAME)
+        self.win_geometry = f'{self.win_width}x{self.win_height}+{self.win_x}+{self.win_y}'
+        self.logger.debug(f"Window Geometry: {self.win_geometry}")
+        self.geometry(self.win_geometry)
+
+        # initialize session logfile
+        self.sessionlogfilename=os.path.join(os.path.expanduser(self.logdir),PRGNAME.lower()+"-session.log")
+        try:
+            self.sessionlogfile=open(file=self.sessionlogfilename,mode="w",encoding=self.encoding)
+            self.logger.info(f"Session logfile is {self.sessionlogfilename}...")
+            timestampstring=datetime.datetime.now().strftime("%Y%m%d %H:%m:%S")
+            msg=PRGNAME+': '+timestampstring+' STARTING...'+'\n'
+            self.sessionlogfile.write(msg)
+
+        except Exception as err:
+            self.logger.error(f"While opening session logfile {self.sessionlogfilename}: Unexpected {err=}, {type(err)=}")
+            self.retval=RETVAL_SESSIONLOGFILE_OPEN_ERROR
+            self.destroy()
+            return
+
+    # extend destroy
+    def destroy(self):
+        try:
+            timestampstring=datetime.datetime.now().strftime("%Y%m%d %H:%m:%S")
+            msg=PRGNAME+': '+timestampstring+' BYE.'+'\n'
+            self.sessionlogfile.write(msg)
+            self.sessionlogfile.close()
+            self.logger.info(f"Closed session logfile {self.sessionlogfilename}.")
+        except:
+            pass
+
+        App.cleanup(self)
+        customtkinter.CTk.destroy(self)
+
+
+    # extend define app arguments here
+    def setup_arguments(self) -> bool:
+
+        App.setup_arguments(self)
+
+        ## option --test
+        ##self.parser.add_argument(
+        ##    "-test", 
+        ##    "--test", 
+        ##    action='store_true',
+        ##    help=(
+        ##        "Provide Testing option "
+        ##        "Example --test, default='False'"),
+        ##)
+
+        return True
+
+
+    # extend parse app arguments here
+    def analyze_arguments(self) -> bool:
+
+        App.analyze_arguments(self)
+
+        ### argument --test
+        ##self.testing = self.options.test
+        ##self.logger.info(f"TEST set to: {self.testing}")
+
+        return True
+
+
+    # read settings from inifile (detail in child class)
+    def read_settings(self) -> bool:
+
+        retval=App.read_settings(self)
+        #if retval == False:
+        #    return retval
+    
         # set found settings
         try:
             self.win_x=int(self.appconfig["WINDOW"]["x"])
@@ -286,55 +368,25 @@ class App(customtkinter.CTk):
         except:
             pass
 
-        return True
+        return retval
 
 
+    # save settings in inifile (detail in child class)
+    def write_settings(self) -> bool:
 
-# basic gui app class
-class GuiApp(App):
+        self.appconfig["WINDOW"]={}
+        x=self.winfo_x()
+        self.appconfig["WINDOW"]["x"] = f'{x}'
+        y=self.winfo_y()
+        self.appconfig["WINDOW"]["y"] = f'{y}'
+        width=self.winfo_width()
+        self.appconfig["WINDOW"]["width"] = f'{width}'
+        height=self.winfo_height()
+        self.appconfig["WINDOW"]["height"] = f'{height}'
 
-    # extend destroy
-    def destroy(self):
-        try:
-            timestampstring=datetime.datetime.now().strftime("%Y%m%d %H:%m:%S")
-            msg=PRGNAME+': '+timestampstring+' BYE.'+'\n'
-            self.sessionlogfile.write(msg)
-            self.sessionlogfile.close()
-            self.logger.info(f"Closed session logfile {self.sessionlogfilename}.")
-        except:
-            pass
+        retval=App.write_settings(self)
 
-        return super().destroy()
-
-
-   # extend define app arguments here
-    def setup_arguments(self) -> bool:
-
-        super().setup_arguments()
-
-        ## option --test
-        ##self.parser.add_argument(
-        ##    "-test", 
-        ##    "--test", 
-        ##    action='store_true',
-        ##    help=(
-        ##        "Provide Testing option "
-        ##        "Example --test, default='False'"),
-        ##)
-
-        return True
-
-
-    # extend parse app arguments here
-    def analyze_arguments(self) -> bool:
-
-        super().analyze_arguments()
-
-        ### argument --test
-        ##self.testing = self.options.test
-        ##self.logger.info(f"TEST set to: {self.testing}")
-
-        return True
+        return retval
 
 
     # for chanching appearance
@@ -452,30 +504,43 @@ if not started in debugging mode
         self.textbox.configure(state="disabled")
 
 
-    # extend the class initialization
+
+#---------------------------------------------------------------------------------------------------------------------------
+# FINAL APP CLASS
+#---------------------------------------------------------------------------------------------------------------------------
+class XmenuApp(GuiApp):
+    """The Final XMENU App for starting commands via GUI buttons"""
+
+    # the class initialization
     def __init__(self):
 
         super().__init__()
 
-        # initialize session logfile
-        self.sessionlogfilename=os.path.join(os.path.expanduser(self.logdir),PRGNAME.lower()+"-session.log")
-        try:
-            self.sessionlogfile=open(file=self.sessionlogfilename,mode="w",encoding=self.encoding)
-            self.logger.info(f"Session logfile is {self.sessionlogfilename}...")
-            timestampstring=datetime.datetime.now().strftime("%Y%m%d %H:%m:%S")
-            msg=PRGNAME+': '+timestampstring+' STARTING...'+'\n'
-            self.sessionlogfile.write(msg)
+        # initialize lists
+        self.menuitems=[]
+        self.cmdnames=[]
+        self.cmdoutputs=[]
 
-        except Exception as err:
-            self.logger.error(f"While opening session logfile {self.sessionlogfilename}: Unexpected {err=}, {type(err)=}")
-            self.retval=RETVAL_SESSIONLOGFILE_OPEN_ERROR
-            self.destroy()
-            #self.quit()
-            return
+        self.cmdbuttons=[]
+        self.cmdprogressbars=[]
+        self.cmdthreads=[]
+        self.cmdretvals=dict()
+        self.cmdqueues=[]
 
+        # load commands
+        self.load_commands()
 
-# define the final app class
-class XmenuApp(GuiApp):
+        # initialize the mainwindow
+        self.setup_mainwindow(cols=3,rows=len(self.menuitems))
+
+        # setup command column in the gui
+        self.setup_commands()
+
+        #create the threading lock and install the queue check
+        self.check_queues()
+
+        return
+
 
     # extend destroy
     def destroy(self):
@@ -550,6 +615,109 @@ class XmenuApp(GuiApp):
 
         return True
 
+    def setup_commands(self):
+
+        # create first rightside frame
+        self.cmd_button_frame = customtkinter.CTkFrame(self, width=150, corner_radius=0)
+        self.cmd_button_frame.grid(row=0, column=2, rowspan=4, sticky="nsew")
+        
+        # header for command column
+        self.cmd_button_label = customtkinter.CTkLabel(self.cmd_button_frame, text="Commands", font=customtkinter.CTkFont(size=20, weight="bold"))
+        self.cmd_button_label.grid(row=0, column=0, padx=20, pady=(20, 10))
+
+        # insert command buttons and progress bars
+        try:
+            row=1
+            self.menuitems=self.cmddata["menuitems"]
+            for menuitem in self.menuitems:
+                if float(self.cmdfileversion) >= 1.0:
+                    cmd=menuitem["cmd"]
+                    cmdname=menuitem["cmdname"]
+                    cmdoutput=menuitem["cmdoutput"]
+                else:
+                    self.logger.error(f"load_commands(): Unsupported Commandfile version {self.cmdfileversion} in {self.cmdfilename}, assuming 1.0")
+                    self.cmdfileversion="1.0"
+                    cmd=menuitem["cmd"]
+                    cmdname=menuitem["cmdname"]
+                    cmdoutput=menuitem["cmdoutput"]
+
+                self.logger.info(f"{row}. Menuitem: {cmdname}: {cmd},{cmdoutput}")
+                try:
+                    index=self.cmdnames.index(cmdname)
+                    if index:
+                        self.logger.warning(f"{row}. Menuitem: {cmdname}: {cmd},{cmdoutput}: CMDNAME EXISTS, MUST BE UNIQUE, IGNORING ITEM!")
+                        break
+                except Exception as err:
+                    self.cmdnames.append(cmdname)
+
+                self.cmdoutputs.append(cmdoutput)
+
+                # setup queue
+                cmdqueue=queue.Queue(maxsize=GUI_MAXQUEUESIZE)
+                self.cmdqueues.append(cmdqueue)
+
+                # add cmd progressbar
+                cmdprogressbar = customtkinter.CTkProgressBar(self.cmd_button_frame)
+                cmdprogressbar.grid(row=row, column=1, padx=20, pady=10)
+                cmdprogressbar.configure(mode="indeterminate")
+                self.cmdprogressbars.append(cmdprogressbar)
+
+                # add cmd button
+                cmdbutton = customtkinter.CTkButton(self.cmd_button_frame, text=cmdname)
+                cmdbutton.grid(row=row, column=0, padx=20, pady=10)
+                self.cmdbuttons.append(cmdbutton)
+                cmdbutton.configure(command=functools.partial(self.start_command_thread,cmdname,cmd,cmdoutput,cmdqueue))
+                
+                row+=1
+
+        except Exception as err:
+            self.logger.error(f"load_commands(): While parsing cmdfile {self.cmdfilename}, cmdname={cmdname}: Unexpected {err=}, {type(err)=}")
+            self.retval=RETVAL_JSON_PARSE_ERROR
+            self.destroy()
+            return
+ 
+
+    # load commands
+    def load_commands(self):
+
+        self.cmdfilename=os.path.join(os.path.expanduser(self.cmdfiledir),PRGNAME.lower()+".json")
+        self.logger.info(f"Commandfile is {self.cmdfilename}...")
+
+        try:
+            with open(file=self.cmdfilename,mode="r",encoding=self.encoding) as jsonfile:
+                self.cmddata = json.load(jsonfile)
+            self.logger.info(self.cmddata)
+        except Exception as err:
+            self.logger.error(f"While reading cmdfile {self.cmdfilename}: Unexpected {err=}, {type(err)=}")
+            self.retval=RETVAL_JSON_PARSE_ERROR
+            self.destroy()
+            #self.quit()
+            return
+
+        jsonfile.close()
+
+        self.cmdfileversion="1.0"
+        try:
+            self.cmdfileversion=self.cmddata["version"]
+            self.logger.info(f"Commandfile version: {self.cmdfileversion}")
+        except Exception as err:
+            self.logger.info(f"Commandfile version not found in {self.cmdfilename}, assuming: {self.cmdfileversion}")
+
+        try:
+            self.menuitems=self.cmddata["menuitems"]
+        except Exception as err:
+            self.logger.error(f"While getting menuitems from {self.cmdfilename}: Unexpected {err=}, {type(err)=}")
+            self.retval=RETVAL_JSON_PARSE_ERROR
+            self.destroy()
+            #self.quit()
+            return
+
+        if self.menuitems == []:
+            self.logger.error(f"No menuitems found in {self.cmdfilename}: Unexpected {err=}, {type(err)=}")
+            self.retval=RETVAL_NO_MENUITEMS_ERROR
+            self.destroy()
+            return
+
 
     # starting a command in a thread
     def start_command_thread(self,cmdname,cmd,cmdoutput,queue):
@@ -604,6 +772,7 @@ class XmenuApp(GuiApp):
 
         # -------------------------------------------------
         # the main task
+        # -------------------------------------------------
         self.logger.debug(f"Starting subprocess for cmd {cmd} (cmdoutput={cmdoutput}) in thread {threadname} (current thread ident={threadid}/nativeid={thrednativeid})...")
         if cmdoutput:
             subproc = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,stdin=None,cwd=None,text=True,encoding=self.encoding,bufsize=1)
@@ -765,140 +934,6 @@ class XmenuApp(GuiApp):
             self.logger.debug(f"{totalqueuesize} messages queued -> slow refresh ({GUI_REFRESH_SLOW},  active threads: {threading.active_count()})...")
             self.after(GUI_REFRESH_SLOW,self.check_queues)
 
-
-    def setup_commands(self):
-
-        # create first rightside frame
-        self.cmd_button_frame = customtkinter.CTkFrame(self, width=150, corner_radius=0)
-        self.cmd_button_frame.grid(row=0, column=2, rowspan=4, sticky="nsew")
-        
-        # header for command column
-        self.cmd_button_label = customtkinter.CTkLabel(self.cmd_button_frame, text="Commands", font=customtkinter.CTkFont(size=20, weight="bold"))
-        self.cmd_button_label.grid(row=0, column=0, padx=20, pady=(20, 10))
-
-        # insert command buttons and progress bars
-        try:
-            row=1
-            self.menuitems=self.cmddata["menuitems"]
-            for menuitem in self.menuitems:
-                if float(self.cmdfileversion) >= 1.0:
-                    cmd=menuitem["cmd"]
-                    cmdname=menuitem["cmdname"]
-                    cmdoutput=menuitem["cmdoutput"]
-                else:
-                    self.logger.error(f"load_commands(): Unsupported Commandfile version {self.cmdfileversion} in {self.cmdfilename}, assuming 1.0")
-                    self.cmdfileversion="1.0"
-                    cmd=menuitem["cmd"]
-                    cmdname=menuitem["cmdname"]
-                    cmdoutput=menuitem["cmdoutput"]
-
-                self.logger.info(f"{row}. Menuitem: {cmdname}: {cmd},{cmdoutput}")
-                try:
-                    index=self.cmdnames.index(cmdname)
-                    if index:
-                        self.logger.warning(f"{row}. Menuitem: {cmdname}: {cmd},{cmdoutput}: CMDNAME EXISTS, MUST BE UNIQUE, IGNORING ITEM!")
-                        break
-                except Exception as err:
-                    self.cmdnames.append(cmdname)
-
-                self.cmdoutputs.append(cmdoutput)
-
-                # setup queue
-                cmdqueue=queue.Queue(maxsize=GUI_MAXQUEUESIZE)
-                self.cmdqueues.append(cmdqueue)
-
-                # add cmd progressbar
-                cmdprogressbar = customtkinter.CTkProgressBar(self.cmd_button_frame)
-                cmdprogressbar.grid(row=row, column=1, padx=20, pady=10)
-                cmdprogressbar.configure(mode="indeterminate")
-                self.cmdprogressbars.append(cmdprogressbar)
-
-                # add cmd button
-                cmdbutton = customtkinter.CTkButton(self.cmd_button_frame, text=cmdname)
-                cmdbutton.grid(row=row, column=0, padx=20, pady=10)
-                self.cmdbuttons.append(cmdbutton)
-                cmdbutton.configure(command=functools.partial(self.start_command_thread,cmdname,cmd,cmdoutput,cmdqueue))
-                
-                row+=1
-
-        except Exception as err:
-            self.logger.error(f"load_commands(): While parsing cmdfile {self.cmdfilename}, cmdname={cmdname}: Unexpected {err=}, {type(err)=}")
-            self.retval=RETVAL_JSON_PARSE_ERROR
-            self.destroy()
-            return
- 
-
-    # load commands
-    def load_commands(self):
-
-        self.cmdfilename=os.path.join(os.path.expanduser(self.cmdfiledir),PRGNAME.lower()+".json")
-        self.logger.info(f"Commandfile is {self.cmdfilename}...")
-
-        try:
-            with open(file=self.cmdfilename,mode="r",encoding=self.encoding) as jsonfile:
-                self.cmddata = json.load(jsonfile)
-            self.logger.info(self.cmddata)
-        except Exception as err:
-            self.logger.error(f"While reading cmdfile {self.cmdfilename}: Unexpected {err=}, {type(err)=}")
-            self.retval=RETVAL_JSON_PARSE_ERROR
-            self.destroy()
-            #self.quit()
-            return
-
-        jsonfile.close()
-
-        self.cmdfileversion="1.0"
-        try:
-            self.cmdfileversion=self.cmddata["version"]
-            self.logger.info(f"Commandfile version: {self.cmdfileversion}")
-        except Exception as err:
-            self.logger.info(f"Commandfile version not found in {self.cmdfilename}, assuming: {self.cmdfileversion}")
-
-        try:
-            self.menuitems=self.cmddata["menuitems"]
-        except Exception as err:
-            self.logger.error(f"While getting menuitems from {self.cmdfilename}: Unexpected {err=}, {type(err)=}")
-            self.retval=RETVAL_JSON_PARSE_ERROR
-            self.destroy()
-            #self.quit()
-            return
-
-        if self.menuitems == []:
-            self.logger.error(f"No menuitems found in {self.cmdfilename}: Unexpected {err=}, {type(err)=}")
-            self.retval=RETVAL_NO_MENUITEMS_ERROR
-            self.destroy()
-            return
-
-
-    # the class initialization
-    def __init__(self):
-
-        super().__init__()
-
-        # initialize lists
-        self.menuitems=[]
-        self.cmdnames=[]
-        self.cmdoutputs=[]
-
-        self.cmdbuttons=[]
-        self.cmdprogressbars=[]
-        self.cmdthreads=[]
-        self.cmdretvals=dict()
-        self.cmdqueues=[]
-
-        # load commands
-        self.load_commands()
-
-        # initialize the mainwindow
-        self.setup_mainwindow(cols=3,rows=len(self.menuitems))
-
-        # setup command column in the gui
-        self.setup_commands()
-
-        #create the threading lock and install the queue check
-        self.check_queues()
-
-        return
 
 
 # only run this if called a main py file

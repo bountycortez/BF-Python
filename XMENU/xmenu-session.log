@@ -1,2 +1,15 @@
-XMENU: 20230125 18:01:01 STARTING...
-XMENU: 20230125 18:01:07 BYE.
+XMENU: 20230128 17:01:49 STARTING...
+PWD: 20230128 17:01:52 I have started...
+PWD: 20230128 17:01:52 /Users/berndflunger/Documents/BF-Python/XMENU
+PWD: 20230128 17:01:52 I have finished!
+LS .: 20230128 17:01:53 I have started...
+LS .: 20230128 17:01:53 total 104
+LS .: 20230128 17:01:53 drwxr-xr-x@ 7 berndflunger  staff    224 28 Jan 17:50 .
+LS .: 20230128 17:01:53 drwxr-xr-x@ 9 berndflunger  staff    288 28 Jan 17:50 ..
+LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff    207 23 Jan 18:23 README.md
+LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff      0 28 Jan 17:50 xmenu-session.log
+LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff    844 10 Jan 20:32 xmenu.json
+LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff   4794 28 Jan 17:50 xmenu.log
+LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff  34797 28 Jan 17:50 xmenu.py
+LS .: 20230128 17:01:53 I have finished!
+XMENU: 20230128 17:01:55 BYE.

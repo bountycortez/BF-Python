@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema targetNamespace="urn:http://vst.bmf.gv.at/vip/v01"
+	version="1.0" xmlns:tns="urn:http://vst.bmf.gv.at/vip/v01" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="VipWebserviceError">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Error" type="tns:ErrorType" form="qualified"
+					nillable="false" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ErrorType">
+		<xs:sequence>
+			<xs:element name="Code" type="xs:string" />
+			<xs:element name="Descr" type="xs:string" />
+			<xs:element name="Point" type="xs:string" />
+			<xs:element name="OrigVal" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
