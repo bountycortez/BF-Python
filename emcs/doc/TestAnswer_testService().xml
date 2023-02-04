@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v01="urn:http://vst.bmf.gv.at/vip/v01">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v01:testServiceResponse>
+         <v01:response>everything fine</v01:response>
+      </v01:testServiceResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -4,6 +4,9 @@
 # 20230128 BF V0.1 birth of app
 #
 # --------------------------------------------------------------------------------------------------------------------------
+# python soap with zeep: https://docs.python-zeep.org/en/master/index.html
+#                   and: https://github.com/mvantellingen/python-zeep
+#
 # Testing with a soap mock server:
 #   1   install soapui open source from https://www.soapui.org
 #   2   create soap (client) project from wsdl
@@ -14,10 +17,12 @@
 #   5   test it with the Client Project Message Request 
 #       (select the mock server as endpoint in the header line selection box)
 #
-# Another mock server: https://www.mock-server.com
+# Another mock server: https://www.mock-server.com and https://github.com/mock-server/mockserver/tree/master/mockserver-examples
 #   1   install for example as command-line tool with homebrew mockserver
 #   2   start with e.g. > mockserver -logLevel INFO -serverPort 1088 (logs requests to stdout!)
 #   3   create expectations and responses (i was not able to create till now, but request logging is helpful)
+#
+# An article about soapui and mockserver: https://javaoraclesoa.blogspot.com/2014/05/mockserver-easy-mocking-of-https.html
 #
 # ==========================================================================================================================
 from requests import Session

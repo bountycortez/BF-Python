@@ -1,0 +1,37 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <ns3:sendMessageResponse xmlns:ns3="urn:http://vst.bmf.gv.at/vip/v01">
+         <ns3:response>
+            <call_uuid>EMCS1234567890</call_uuid>
+            <operator>ATC0008538200</operator>
+            <system>t</system>
+            <contentType>3</contentType>
+            <messageType>EM815</messageType>
+         </ns3:response>
+      </ns3:sendMessageResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <ns3:sendMessageResponse xmlns:ns3="urn:http://vst.bmf.gv.at/vip/v01">
+         <ns3:response>
+            <call_uuid>EMCS1234567890</call_uuid>
+            <operator>ATC0008538200</operator>
+            <system>t</system>
+            <contentType>2</contentType>
+            <message><![CDATA[<ns2:VipWebserviceError xmlns:ns2="urn:http://vst.bmf.gv.at/vip/v01">
+    <ns2:Error>
+        <Code>WS05</Code>
+        <Descr>Duplicate MessageId</Descr>
+        <Point>messageId</Point>
+        <OrigVal>lieferung-123456</OrigVal>
+    </ns2:Error>
+</ns2:VipWebserviceError>]]></message>
+         </ns3:response>
+      </ns3:sendMessageResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
