@@ -1,0 +1,22 @@
+XMENU 2023-02-22 19:38:08,577 Thread [MainThread] 8608891200 INFO: Starting XMENU (logfile=./xmenu.log,encoding=utf-8)...
+XMENU 2023-02-22 19:38:08,577 Thread [MainThread] 8608891200 INFO: Current directory: /Users/berndflunger/Documents/BF-Python
+XMENU 2023-02-22 19:38:08,578 Thread [MainThread] 8608891200 INFO: Current encoding: utf-8
+XMENU 2023-02-22 19:38:08,578 Thread [MainThread] 8608891200 INFO: Found Option log: info
+XMENU 2023-02-22 19:38:08,578 Thread [MainThread] 8608891200 INFO: Found Option logdir: .
+XMENU 2023-02-22 19:38:08,578 Thread [MainThread] 8608891200 INFO: Found Option cmdfiledir: .
+XMENU 2023-02-22 19:38:08,578 Thread [MainThread] 8608891200 INFO: Inifilename: /Users/berndflunger/.XMENU
+XMENU 2023-02-22 19:38:08,579 Thread [MainThread] 8608891200 INFO: LOGDIR set to: .
+XMENU 2023-02-22 19:38:08,579 Thread [MainThread] 8608891200 INFO: CMDFILEDIR set to: .
+XMENU 2023-02-22 19:38:08,579 Thread [MainThread] 8608891200 INFO: Screen width: 2560
+XMENU 2023-02-22 19:38:08,579 Thread [MainThread] 8608891200 INFO: Screen height:1440
+XMENU 2023-02-22 19:38:08,579 Thread [MainThread] 8608891200 INFO: Window Width: 1598
+XMENU 2023-02-22 19:38:08,579 Thread [MainThread] 8608891200 INFO: Window Height: 1121
+XMENU 2023-02-22 19:38:08,579 Thread [MainThread] 8608891200 INFO: Window X: 508
+XMENU 2023-02-22 19:38:08,579 Thread [MainThread] 8608891200 INFO: Window Y: 53
+XMENU 2023-02-22 19:38:08,580 Thread [MainThread] 8608891200 INFO: Session logfile is ./xmenu-session.log...
+XMENU 2023-02-22 19:38:08,580 Thread [MainThread] 8608891200 INFO: Commandfile is ./xmenu.json...
+XMENU 2023-02-22 19:38:08,580 Thread [MainThread] 8608891200 ERROR: While reading cmdfile ./xmenu.json: Unexpected err=FileNotFoundError(2, 'No such file or directory'), type(err)=<class 'FileNotFoundError'>
+XMENU 2023-02-22 19:38:08,580 Thread [MainThread] 8608891200 INFO: Shutting down (current thread count: 1)...
+XMENU 2023-02-22 19:38:08,580 Thread [MainThread] 8608891200 INFO: Waiting for work in queues to be done...
+XMENU 2023-02-22 19:38:08,581 Thread [MainThread] 8608891200 INFO: Closed session logfile ./xmenu-session.log.
+XMENU 2023-02-22 19:38:08,581 Thread [MainThread] 8608891200 CRITICAL: Failed XMENU (retval=(10, 'JSON-PARSE-ERROR'))!

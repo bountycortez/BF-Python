@@ -1,15 +1,1099 @@
-XMENU: 20230128 17:01:49 STARTING...
-PWD: 20230128 17:01:52 I have started...
-PWD: 20230128 17:01:52 /Users/berndflunger/Documents/BF-Python/XMENU
-PWD: 20230128 17:01:52 I have finished!
-LS .: 20230128 17:01:53 I have started...
-LS .: 20230128 17:01:53 total 104
-LS .: 20230128 17:01:53 drwxr-xr-x@ 7 berndflunger  staff    224 28 Jan 17:50 .
-LS .: 20230128 17:01:53 drwxr-xr-x@ 9 berndflunger  staff    288 28 Jan 17:50 ..
-LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff    207 23 Jan 18:23 README.md
-LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff      0 28 Jan 17:50 xmenu-session.log
-LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff    844 10 Jan 20:32 xmenu.json
-LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff   4794 28 Jan 17:50 xmenu.log
-LS .: 20230128 17:01:53 -rw-r--r--  1 berndflunger  staff  34797 28 Jan 17:50 xmenu.py
-LS .: 20230128 17:01:53 I have finished!
-XMENU: 20230128 17:01:55 BYE.
+XMENU: 20230222 20:02:43 STARTING...
+PWD: 20230222 20:02:46 I have started...
+PWD: 20230222 20:02:46 /Users/berndflunger/Documents/BF-Python/XMENU
+PWD: 20230222 20:02:46 I have finished!
+LS .: 20230222 20:02:47 I have started...
+LS .: 20230222 20:02:47 total 104
+LS .: 20230222 20:02:47 drwxr-xr-x@  7 berndflunger  staff    224 22 Feb 19:43 .
+LS .: 20230222 20:02:47 drwxr-xr-x@ 11 berndflunger  staff    352 22 Feb 19:43 ..
+LS .: 20230222 20:02:47 -rw-r--r--   1 berndflunger  staff    207 23 Jan 18:23 README.md
+LS .: 20230222 20:02:47 -rw-r--r--   1 berndflunger  staff      0 22 Feb 20:01 xmenu-session.log
+LS .: 20230222 20:02:47 -rw-r--r--   1 berndflunger  staff    844 10 Jan 20:32 xmenu.json
+LS .: 20230222 20:02:47 -rw-r--r--   1 berndflunger  staff   4741 22 Feb 20:01 xmenu.log
+LS .: 20230222 20:02:47 -rw-r--r--   1 berndflunger  staff  35310 22 Feb 19:43 xmenu.py
+LS .: 20230222 20:02:47 I have finished!
+FIND *.pdf: 20230222 20:02:49 I have started...
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Versicherung/Datenweitergabe DI Bernd Flunger für ETVD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Versicherung/E-BOX-Vereinbarung-2013-11-04 10-39-03.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Versicherung/Allianz - WAP - Lebensversicherung 2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Versicherung/Allianz - WAP - Lebensversicherung 2021.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Versicherung/Wiener Städtische - Wertanpassungspolizze 2016.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Versicherung/20211207_082330_61af0bf3b67113cdb718e411__Polizze_Wertanpas_Wertanpassungspolizze.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Versicherung/Wiener Städtische - Wertanpassungspolizze 2019.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Versicherung/Wiener Städtische - 20191216_080615_5df72ce7b6711ef95644da68__Polizze_Wertanpas_Wertanpassungspolizze für 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/Frauenvolksbegehren - unterstuetzung_47.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/avatar-toni.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/ikea-pax.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/Gesundmeldung-dez09.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/RS.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/uml-2-Notationsuebersicht-oose.de.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/xxx.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/uml-notationsuebersicht.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/Sennheiser RS 170 Headphone.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/MIME004832.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/bgnet_A4.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/SQLNEU02.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/avatar.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/Flu-E12-081117 _ 1. OG.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/metropol-kiki.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/avatar-alex.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/OpenSSL-1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Vollbild-Menü Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/EyeTV 2 Benutzerhandbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Elgato Software-Lizenz.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/EyeTV und AppleScript.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Keyspan IR Remote/Keyspan IR Remote Hilfe.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Keyspan IR Remote/Keyspan IR Remote Guide.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/EyeTV 200 Hardware-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/Elgato Infrarot-Fernbedienung-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/EyeTV 610 Hardware-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/EyeTV USB Hardware-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/EyeTV 300 Hardware-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/EyeTV 410 Hardware-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/EyeTV Wonder USB 2.0 Hardware-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/EyeTV 400 Hardware-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/EyeTV-Doku-Deutsch/Extras/Hardware-Handbücher/EyeTV 310 Hardware-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/OpenSSL-2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/AT-LP120XBT-USB_UM_162501910_V1_EN_web_200124.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/VS.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/00293810.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/AirPortExpress_TO.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/DontSmokeVolksbegehren - unterstuetzung_61.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/6kmh zu schnell in Zirl 71f88317-539a-4789-860b-28be9ae750e4_1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/Flu-E12-081117 _ 0. EG.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/A1 - B.free/B.free - Business Rechnung Anmeldung - 20200218_19492637.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/A1 - B.free/BfreeBusinessRechnungAnmeldung20200302_09344121.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Divers/avatar-claudia.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/Wohnungsübergabeprotokoll - Rudolf Flunger.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/Formular Indexanpassung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/Kasapidis - Checkliste Höttinger Au 26 - Top 35.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/07_TWG_Formular_Tirol_072018.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/Mieteingang.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/MieteingangV2021.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/BK-Mahnung H26T35 - 2018-08-14.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/vpi_2010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/alt/chkliste01.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Divers/Kasapidis - Muster Mietvertrag.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Brandjochstrasse/Vertrag-B3bT16-AblaufVerlängerungMietvertrag.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/MIETVERTRAG H26 Mustermann.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-88.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-63.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-62.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-89.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Sicherungskopie von MV-50.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Verlängerung Mietvertrag - Tiergartenstrasse 134 - 10D - 20171023.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Sicherungskopie von MV-52.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-48.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-60.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-74.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-75.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-61.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-49.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-65.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-71.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-59.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-58.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-70.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-64.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-98 - H26T34 - 2022 - Magdalehna Lohfeyer/Aufenthaltstitel_Jonathan Ollerenshaw.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-98 - H26T34 - 2022 - Magdalehna Lohfeyer/Reisepass Jonathan Ollerenshaw.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-98 - H26T34 - 2022 - Magdalehna Lohfeyer/Checkliste Höttinger Au 26 - Top 34 - 2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-94 - Passkopie_Julian_Abt.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-64.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-51a.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-66.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-99.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-72.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-66.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-67.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-73.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-98.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Vertrag-H26T35-Pal-AblaufVerlängerungMietvertrag.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Sicherungskopie von MV-53.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Vertrag-T14TA25+TG56-Lanser-Indexanpassung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-60-alt.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Sicherungskopie von MV-51.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-67.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Vertrag-T136TC13+TG60-Münzberg-Indexanpassung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-65.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-58.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-54.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-51a.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-69.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Vertrag-H26T36-Ismail-AblaufVerlängerungMietvertrag.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-70.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV77.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV76.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-99alt - T142T15F - 2022 - Stephan Aichner/MV-99.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-99alt - T142T15F - 2022 - Stephan Aichner/Passport0001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-99alt - T142T15F - 2022 - Stephan Aichner/Checkliste Wohnung Tiergartenstrasse 132.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-99alt - T142T15F - 2022 - Stephan Aichner/passport Juliana.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-52.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Sicherungskopie von MV-51a.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-50.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Vertrag-T14TA19+TG51-Altenberger-Indexanpassung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-95.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-81.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-56.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-57.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-80.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-94.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-57.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-68.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-97 - Checkliste Höttinger Au 26 - Top 42 - 2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-82.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-96.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-55.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-69.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-55.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-54.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-68.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-97.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-83.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/Verlängerung Mietvertrag - Tiergartenstrasse 132 - 15F - 20180815.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-99 - T142T15F - 2022 - Stefan Manfreda/Passkopie Stefan Manfreda.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-99 - T142T15F - 2022 - Stefan Manfreda/Passkopie Alina Peternell.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-99 - T142T15F - 2022 - Stefan Manfreda/Checkliste Tiergartenstrasse 132 - Top 15 F - 2022 - Manfreda.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-87.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-93.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-50.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-78.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-79.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-51.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-92.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-86.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-59-alt.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-51.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-90.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-84.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-53.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-52.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-85.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Archiv/MV-91.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/MIETVERTRAG T14 Mustermann.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 34.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 14 - Top A25.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 35 - 2020_Christoph_Pal.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 42 - 2022 Kopie.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 132 - Top 15 F.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 42 - 2021 - Julian ABT- ausgefüllt.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 34 - Vertrag 71-Anhang.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 42 - 2020.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Vermietung Christine Pontiller.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 134 - Top 10D - 2021.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 14 - Top A25 - 2021.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 42.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 42 - 2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 14.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 35.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 42 - 2021.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 42 - 2021 - Julian ABT.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 34 - 2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/old/Checkliste Tiergartenstrasse 14 - Top A25.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/old/Checkliste Höttinger Au 26 - Top 34.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/old/Checkliste Höttinger Au 26 - Top 34 - Vertrag 71.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/old/Checkliste Brandjochstrasse 3b.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 134 - Top 10 D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 34 - 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 136 - Top 13 C.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 34 - Vertrag 68.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 14 - Top A19 - 2021.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 134 - Top 10D - 2021 Dröscher.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 14 - Top A19.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 36.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 136 - Top 8 C.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Brandjochstrasse 3b.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 14 - Top A19 - 20210309.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Höttinger Au 26 - Top 35 - 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 132 - Top 15 F - 2022 - Manfreda.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 132 - Top 15 F - 2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Checklisten/Checkliste Tiergartenstrasse 136 - Top 13C - 2021.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Muster/muster - mietvertrag-fuer-mieter-und-vermieter.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/Muster/Mustermietvertrag-Wohnungen-Teilanwendung-des-MRG-angemessener-Hauptmietzins-09-2007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/alt/Leervertrag.pages/QuickLook/Preview.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/alt/Checkliste.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Mietvertraege/alt/Leervertrag.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/sky-papa/Mein Abonnement - Sky - Mein Sky.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/sky-papa/Sky Abo kündigen - Sky - Hilfecenter.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/sky-papa/Sky Vertrag 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/sky-papa/Mein Abonnement - Sky - Mein Sky - 1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Dokumentenmappe/Personalausweis Rudolf FLUNGER.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Hoettinger-Au/Endreinigung31082013.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Hoettinger-Au/ÖH-Inserat-2019.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Pläne/Tiergartenstrasse 14/Tiergartenstrasse 14 - Top 19 - Orginal.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/Unterschriebener Umlaufbeschluss PV Tiergartenstrasse.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/Umlaufbeschluss PV Anlage Tiergartenstrasse 130-140 Projektbeschreibung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/Vertrag-T136Top13C-AblaufVerlängerungMietvertrag.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/2023-01-16 14-50 Einzugsermächtigung Tiergartenstrasse Rudolf Flunger.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/Einzugsermaechtigung Flunger Rudolf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/T132F15+TG101-MANFREDA-BK2023.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/2023-01-16 15-05 Vollmacht Wohnungseigentum RFanBF.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/T136C13+TG60-MÜNZBERG-BK2023.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/Bilder+Ausschreibungen/Nr132TopF15+Ga101/T132TF15 - RUHIGE 2-ZIMMER-WOHNUNG mit BALKON und GARAGE - September2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/T134D10+TG79-DRÖSCHER-BK2023.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/Umlaufbeschluss PV Anlage Tiergartenstrasse 130-140.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/Umlaufbeschluss PV Anlage Tiergartenstrasse 130-140 Schreiben Hr Dauz.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Tiergartenstr/T136C09+TG58-MAUE-BK2023.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Betriebskosten/LASTSCHRIFT-BK-WEG-2023.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Papa/Betriebskosten/KONTOAUSZUG-BK-WEG-Feber-2023.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sky/Sky Select Geschenk Okt 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sky/Sky Vertrag Okt 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Auto/RAV4 Hybrid - Ravaella/Kaufvertrag 20160826174055391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Auto/RAV4 Hybrid - Ravaella/1PtyAtY.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Auto/RAV4 Hybrid - Ravaella/A_RAV4 MY'17.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Auto/RAV4 Hybrid - Ravaella/PL_RAV4_MY17_160708_AKTUELL.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Auto/SAAB 93/Ihr Saab 9-3 by GM.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Auto/SAAB 93/an Böhler - Kühlertausch SAAB 9-3 durch Fa. Plangger.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/2014 - Kinderbetreuung - Tanzen.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/2014 - Kinderbetreuung Hort.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/AT725700070011015834_EUR_M20140402.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/2015-09-20 14-14 Flöte.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/AT725700070011015834_EUR_201400001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/AT725700070011015834_EUR_201400003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/AT725700070011015834_EUR_201400002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/AT725700070011015834_EUR_M20140527.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/AT725700070011015834_EUR_M20141001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2014/2014 - Kinderbetreuung - Flöte.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2022/AT725700070011015834_EUR_M20220701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2022/AT725700070011015834_EUR_M20220401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2022/AT725700070011015834_EUR_M20210701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2022/AT725700070011015834_EUR_M20211001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2022/AT725700070011015834_EUR_202100001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2015/AT725700070011015834_EUR_M20150701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2015/AT725700070011015834_EUR_M20150528.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2015/AT725700070011015834_EUR_M20151221.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2015/AT725700070011015834_EUR_M20150401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2015/AT725700070011015834_EUR_201500001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2015/AT725700070011015834_EUR_M20151001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2017/AT725700070011015834_EUR_201700001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2017/AT725700070011015834_EUR_M20170703.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2017/AT725700070011015834_EUR_M20171002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2017/AT725700070011015834_EUR_M20170523.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2019/AT725700070011015834_EUR_M20191001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2019/AT725700070011015834_EUR_M20180403.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2019/AT725700070011015834_EUR_M20190401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2019/AT725700070011015834_EUR_201800003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2019/AT725700070011015834_EUR_201900001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2019/AT725700070011015834_EUR_M20190701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2019/AT725700070011015834_EUR_201800004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2021/Buchungsbestaetigung_Meyer-Plank-2021-01-26_08-39-28.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Krefitkartenproblem Apple.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Datenschutzerklaerung hypoPAY.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Krefitkartenproblem Apple 2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Besondere Bedingungen fuer die ZOIN-Funktion.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Allgemeine Nutzungsbedingungen hypoPAY.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Vorvertragliche Informationspflichten.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Anlegervorschlag BGF New Energy .pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Ihr-Kundenkennwort und tel_2020-06-12_08-19-36.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2020/Anlegerprofil Kyriaki Adaktylou - nur Unterschrift.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2018/AT725700070011015834_EUR_201800002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2018/AT725700070011015834_EUR_201800001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2016/AT725700070011015834_EUR_201600003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2016/AT725700070011015834_EUR_201600002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2016/AT725700070011015834_EUR_M20160401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2016/AT725700070011015834_EUR_201600001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2016/Hypo Online Banking - Übernahmebestätigung- Verena Steiner.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2016/AT725700070011015834_EUR_M20160701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/KontoPrivat/2016/AT725700070011015834_EUR_M20160524.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/Alt/57000_70011015834_EUR_200700002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/Alt/kontoauszug-57000_70011015834_EUR_200700002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/Alt/Kirchenbeitrag - bestaetigung_2011-12-26_17-05-53.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/Alt/bestaetigung_2011-12-22_23-31-58.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/Alt/Orthopädische Untersuchung Sophia - Bestaetigung_2011-12-26_17-03-00.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/Alt/kontoauszug-57000_70011015834_EUR_200700002-1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/Alt/57000_70011015834_EUR_200800001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bank/Alt/finanzamt-steuer09.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Divers/99 Luftballons.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Gymnasium/Mathematik-3-Schularbeit-Sophia-Flunger-2D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Gymnasium/uebernahmebestätigung_2018-10-03_20-27-04.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Gymnasium/Korrektur Mathe 3te Schularbeit.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Gymnasium/my summer.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Klassenfahrt-Linz.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Handy/A1 Online Shop | A1.net - B.Free Bestellung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/A1 Online Shop | A1.net.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Märchen/SAGEN.at - DER FROSCHKÖNIG ODER DER EISERNE HEINRICH.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Märchen/SAGEN.at - DORNRÖSCHEN.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Märchen/SAGEN.at - FRAU HOLLE.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Märchen/SAGEN.at - RAPUNZEL.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Volksschule/Wenn ich einmal groß bin.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Volksschule/matheschularbeit.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Volksschule/2Matheschularbeit.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/Volksschule/Meeresbewohner.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Sophia/butterkekse.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Hütte/Angebot Tiroler Hütte Rumer Alm.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Hütte/KG81014-Rum-Beschluss.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Hütte/bf_huette.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Hütte/Karteiblatt Flunger.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Hütte/Angebot ERGO Flunger_Harald_Jagdhütte EH.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Hütte/Rum-Grundsteuer-ZS0001980000418 Kopie.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Hütte/Hütte-Rum-Grundsteuer-ZS0002211000418.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Hütte/Angebot Tiroler Hütte inkl. Sturm.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Samsung/E-mail product support - SAMSUNG.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Remarkable/Weihnachten 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Bankomatkarte Hypo.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/genehmigter ESTA Antrag - kurz.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Staatsbürgerschaftsnachweis.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/genehmigter ESTA Antrag.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Pass Bernd FLUNGER.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Pass Bernd FLUNGER - 2 seitig.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Führerschein.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Maturazeugnis.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Diplom.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Arbeitsbestätigung - Certificate of Employment.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Geburtsurkunde.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Alt/Alt - Pass Bernd FLUNGER - Mittlere Auflösung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Dokumentenmappe - Kopie/Alt/Zulassung-Saab.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/FiB-Schwaz/Ki.Ad.BBE.FORMBLATT.Lebenslauf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/FiB-Schwaz/TeamProtokoll04.12.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/FiB-Schwaz/AMSInfo.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/homöopathie1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/OEBBTicket-1271049641869700.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/dus-net-KA-30758-20070904-0027272.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/_ae__SHARRER_Em_voucher-1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/MFB-Buchung-8010769617_4.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/Tiere Hort.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/MFB-Buchung-8010769617_3.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/KI_2018_T_Vegane_Kosmetik.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/FLIX-Ticket-8029267195.pdf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/dus-net-KA_30758_20070512_0018835.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/OEBBTicket-bolognaIbk.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/MFB-Buchung-8010769617_2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/OEBBTicket-ibkverona.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/MFB-Gepäckanhänger-8010769617.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/Ahmadbrief.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/printmovietechgr.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/Flu-E12-081117 _ 1. OG.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/Rechnung_20080912.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/arztrechnung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/MFB-Buchung-8010769617.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/Rechnung_20081212.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/MFB-Gepäckanhänger_2-8010769617.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/Foteinibusticket.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/hausübunngsophia.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/OEBBTicket-1158972708619092.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/AEGEAN_AIRLINES_SA_Baggage_Confirmation.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/Flu-E12-081117 _ 0. EG.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/polizeiprotokoll.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/TicketsVeronaRom.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/Fragebogen Nikolaus.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/divers/EU1871381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Weiberkost/Sicherungskopie von Konzept für Caritas - Kinderschmaus .pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Weiberkost/„konzept für caritas“.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/AZ-FiB.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/UNI-Diplom.rtfd/2013-04-29UNI-Diplom.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/Zacharoula Grammenou/LL-ZacharoulaGrammenou.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/Zertifikat Kopie .pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/AZ-Klinik-II.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/AZ-Cranachstrasse.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/Lebenslauf2019.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/AZ-Klinik-I.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Bewerbung und Lebenslauf/Eintragung Kopie .pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Ecard/ecard.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Ecard/ecardfoto.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Ecard/meldezettelecard.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Ecard/MeldeZettelKA.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Kinderschmaus/Konzept für Caritas - Kinderschmaus .pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Kinderschmaus/Konzept für Caritas - Kinderschmaus.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Kiga-Elternbeirat/Elternliste.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/Kiga-Elternbeirat/Elternliste.numbers.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/HoT/Rufnummermitnahme1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/HoT/Rufnummermitnahme2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/OEBBTicketf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Kiki/TicketsveronaRom.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Divers/Meldezettel.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Divers/Mietervereinigung - Betriebskosten - Mai2011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Divers/Arbeiterkammer - Betriebskosten.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/ChecklisteH26T40-Ahmad.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Mietvertrag - H26T37 - FRIE - 01.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Verlängerung Mietvertrag H26T40 - 2020 - Unterschrift.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Rücküberweisung BK für September H26T40 - Ahmad Yousefi - uebernahmebestätigung_2022-09-04_10-50-01.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Kautionsrückzahlung H26T40 - Ahmad Yousefi - uebernahmebestätigung_2022-09-04_10-39-48.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Checkliste H25T40 - 2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-H26T38-JUNGMANN-PAUSCHAL-02-unterschrieben.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-H26T40-AHMAD-01.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-H26-T40-ARNOLD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Unterschriebene Verlängerung Mietvertrag H26T37 - 2017.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/ChecklisteH26T40-ARNOLD.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Verlängerung Mietvertrag H26T40 - 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-A-H26-Top37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/ChecklisteH26T38-JUNGMANN-Sabrina.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Unterschrieben - Verlängerung Mietvertrag H26T37 - 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-B-H26-Top38.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/ChecklisteH26T38-JUNGMANN.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-C-H26-Top40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Verlängerung Mietvertrag H26T37 - 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/Verlängerung Mietvertrag H26T37 - 2017.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-H26T38-JUNGMANN-PAUSCHAL-01.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-H26T38-HOFER-PAUSCHAL-01.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/MV-H26T38-JUNGMANN-PAUSCHAL-02.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/Archiv/H26T40-UNTERFRAUNER-2022/MV-H26T40-UNTERFRAUNER-2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/VPI/VPI2010-20130919-STATISTIK AUSTRIA - Zeitreihen und Verkettungen.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/VPI/VPI20130919-STATISTIK AUSTRIA - Verbraucherpreisindex (VPI-HVPI).pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/VPI/vpi_2010-20210412.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/VPI/VPI2000-20130919-STATISTIK AUSTRIA - Zeitreihen und Verkettungen.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/old/Mietvertrag - H26T37 - Muster.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/old/MIETVERTRAGVORLAGE.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/old/ChecklisteH26T40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/old/Checkliste H26T37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Mietverträge/old/Checkliste.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Vermietung Garage/Archiv/Vermietung Garage - Vertrag 3.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Vermietung Garage/Archiv/Vermietung Garage - Vertrag 2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Vermietung Garage/Archiv/Vermietung Garage - Vertrag 1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Vermietung Garage/Archiv/Vermietung Garage - Eleonore Flunger - Vertrag Garage-2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Wohnungen_und_Eigentümer.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2013/2013-umsaetze-girokonto_57000_30053340161_EUR_2014-01-11_14-02-26.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_M20140527.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_M20140904.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_M20141204.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_M20141006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400012.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/Kaution Elisa Wiesener - Teil 1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_M20140405.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_M20140604.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400009.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_201400008.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_M20140506.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2014/AT065700030053340161_EUR_M20140704.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/H26T40-Strabag-uebernahmebestätigung_2022-04-13_18-23-22.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/AT065700030053340161_EUR_202200001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/AT065700030053340161_EUR_202200002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/AT065700030053340161_EUR_202200003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/AT065700030053340161_EUR_202200007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/AT065700030053340161_EUR_M20220503.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/AT065700030053340161_EUR_202200006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/AT065700030053340161_EUR_202200004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2022/AT065700030053340161_EUR_202200005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/Reparatur Froschhammer - Top37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500012.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/Kaution Elisa Wiesener - Teil 2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/Hypo Online Banking - FinanzVorauszahlungQII.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/Hypo Online Banking - FinanzVorauszahlungQIII.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_M20150204.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500009.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_201500008.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/Hypo Online Banking - FinanzVorauszahlungQI.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_M20150528.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/Eigenübertrag (Einkommensteuer2014) Bestaetigung_2016-01-24_15-43-05.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2015/AT065700030053340161_EUR_M20151221.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700009.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700008.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_M20170523.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700012.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2017/AT065700030053340161_EUR_201700007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_M20190507.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900012.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/Ihr-Erklärung und Zeichnun_2019-05-02_24-31-38.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900009.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2019/AT065700030053340161_EUR_201900008.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100012.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_M20210504.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/umsaetze-girokonto_AT065700030053340161_EUR_2021.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100008.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2021/AT065700030053340161_EUR_202100009.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000012.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/umsaetze-girokonto_AT065700030053340161_EUR_2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_M20200505.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000008.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2020/AT065700030053340161_EUR_202000009.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800012.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_M20180508.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800009.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2018/AT065700030053340161_EUR_201800008.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600009.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600008.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_M20160427.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_M20160524.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600003.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600005.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600004.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600012.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600006.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/KontoMieten/2016/AT065700030053340161_EUR_201600007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Vorlagen/old/ChecklisteH26T37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Vorlagen/Brief BF Indexanpassung.pages/Data/PastedDrawable-15.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Abstimmung-Lift-2021-04-19_Nachricht.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Pharaoameisen.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/2021-05-01_Nachricht-WechselZuständigkeit.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/2021-05-01_Nachricht.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/_AN-2160611.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/_AN-2160610.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/Höttinger Au_Olymp.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/2016.05.02_ Protokoll ETV.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/UltraGas_2017_04.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/TGHKV 2014, Fassung vom 11.11.2016.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/TGHKV 2014 Fassung vom 11 11 2016_Anlage_2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/SKM_C454e17041211330.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/_AN-2160609.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Umstellung Heizung von Öl auf Gas/2016.08.31_Bekanntgabe_ Beschlussfassung_Aushang_Hiezungsumstellung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Hoerhager-Kundenportal-2019-09-30_Nachricht.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Abstimmung-Lift-2021-04-19_Antwort.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Email - Schreiben vom 1.10.2013 - Übernahme der Hausverwaltung : Betriebs- und Heizkosten.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/2013-10-05 13-09 Hörhager - Willkommen als Eigentümer - EmailAntwort.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/2013-10-05 13-09 Hörhager - Willkommen als Eigentümer.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Hausverwaltung/Abstimmung-Lift-2021-04-19_Nachricht Kopie.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Divers/Schenkungsvertrag Höttinger Au 26 - Top 37,38,40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Divers/2022-10-09 15-25 Lekotech Stromverbrauch.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Mieter/Kaution H26T40 - ARNOLD - Differenz Kautionssparbuch auf 1500 - buchungsbestaetigung_2017-09-04_15-51-41.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Mieter/Kaution H26T40 - ARNOLD - Abrechnung - uebernahmebestaetigung_2017-09-04_15-56-42.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.3701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.5401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-4001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-3801.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-5401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-5381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Korrektur für Papa/vorschreibung_00100-5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-5381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-3701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-5401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.3801.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.4001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/uebernahmebestätigung_2021-06-29_12-19-37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/uebernahmebestätigung_2021-06-29_12-19-23.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/00100-3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Vorschreibung Juli 2021 - Knr.5381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Sondervorschreibungen/2021/Ergänzung Vorschreibung für Juli 2021 6020 Innsbruck Höttinger Au 26  Top W 39 etc.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Bilder+Ausschreibungen/Top34/H26T34 - HELLE ZENTRALE 2-ZIMMER WOHNUNG in UNI-NÄHE - ÖH Wohnungsbörse- August2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Bilder+Ausschreibungen/Top34/H26T34 - HELLE ZENTRALE 2-ZIMMER WOHNUNG in UNI-NÄHE, 5. STOCK mit LIFT, BALKON und KELLERABTEIL | ÖH Wohnungsbörse - Junli2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Bilder+Ausschreibungen/Top34/H26T34 - HELLE ZENTRALE 2-ZIMMER WOHNUNG in UNI-NÄHE - ÖH Wohnungsbörse- September2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Pläne/2013-09-16 09-18 Plan Höttinger Au 26.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2014/2015-05-18 17-36 BK-Abrechnung H26T37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2014/2015-05-18 17-39 BK-Abrechnung H26T38 - bw.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2014/2015-05-18 17-41 BK-Abrechnung H26T40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2022/BF-00100_2022.11.23_Nachricht.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2022/2022-06-20 11-31 BK-Abrechnung Jugovic.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2022/2022-06-20 09-30 BK-Abrechnung H26T40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2022/2022-06-20 09-27 BK-Abrechnung H26T37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF-vorschreibung_00100_3401_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/BF-angepasst20230204-vorschreibung_00100_3801_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/Duplikat-vorschreibung_00100_3501_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/BF-weitergegeben_an_Friessnig-Vorschreibung Jänner 2023 - Knr.3701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/Duplikat-vorschreibung_00100_4101_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/BF-vorschreibung_00100_4001_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF_vorschreibung_00100_5381_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF-Vorschreibung Jänner 2023 - Knr.3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/ReklamationAnfang2013/Kontoblatt 00100-4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/ReklamationAnfang2013/Kontoblatt 00100-3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/ReklamationAnfang2013/Kontoblatt 00100-3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/ReklamationAnfang2013/vorschreibung_00100_3901_2022_7_7_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/ReklamationAnfang2013/vorschreibung_00100_3901_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF-Vorschreibung Jänner 2023 - Knr.4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF-Vorschreibung Jänner 2023 - Knr.5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/Duplikat-vorschreibung_00100_3901_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/BF-00100_2023_Vorausschau.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF-vorschreibung_00100_5401_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF-vorschreibung_00100_4201_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF-Vorschreibung Jänner 2023 - Knr.3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/00100_2022.11.23_Nachricht.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/RF-vorschreibung_00100_3601_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/Duplikat-vorschreibung_00100_3701_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/Duplikat-vorschreibung_00100_5391_2023_1_1_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2023/00100_2023.02.03_Gaspreisentwicklung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2015/2016-05-23 11-28 BK-Abrechnung 2015 H26T38.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2015/2016-05-23 11-29 BK-Abrechnung 2015 H26T40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2015/2016-05-23 11-26 BK-Abrechnung 2015 H26T37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2017/BK-Abrechnung-2017 H26T38.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2017/BK-Abrechnung-2017 H26T37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2017/BK-Abrechnung-2017 H26T40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T40 - Knr.4001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T39 - Knr.3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T38 - Knr.3801.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26AAP40 - Knr.5401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T41 - Knr.4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T42 - Knr.4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T40 - Knr.4001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T39 - Knr.3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T38 - Knr.3801.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T42 - Knr.4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T41 - Knr.4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26AAP39 - Knr.5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26AAP38 - Knr.5381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Betriebskostenabrechnung 2019 - Barbara FRIESSNIG - H26T37 - Knr.370.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T34 - Knr.3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26Top36 - Knr.3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T37 - Knr.3701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T35 - Knr.3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T36 - Knr.3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26AAP40 - Knr.5401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T37 - Knr.3701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26T34 - Knr.3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T36 - Knr.3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Abrechnung 2019 - H26T35 - Knr.3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26AAP38 - Knr.5381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Betriebskostenabrechnung 2019 - Ahmad YOUSEFI - H26T40 - Knr.4001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2019/done/Vorschreibung Mai 2020 - H26AAP39 - Knr.5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.5401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.3701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.3701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.5401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.3801.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.4001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.5381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.4201_repaired.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorausschau 2022 AAP38.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Anforderung BK-Guthaben 2021 H36T34 Papa.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Abrechnung 2021 - Knr.5381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.4001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2021/Vorschreibung Juli 2022 - Knr.3801.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.3701.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.3501.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.5401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.3401.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.3601.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.4201.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.3801.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.4001.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.5381.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.4101.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.3901.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/2021-06-06 13-29 BK 2020 H26 T38+T40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2020/Abrechnung 2020 - Knr.5391.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2018/H26T38/VorschreibungH26T38_00100_3801_2018_7_7_.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2018/BK-Abrechnung-2018-H26T37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2016/2017-07-10 14-48 BK Gutschrift H26T40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2016/2017-07-10 14-37 BK 2016 H26T37.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2016/2017-07-10 14-35 BK 2016.H26T38.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Vermietung/Höttinger Au 26/Betriebskosten/2016/2017-07-10 14-38 BK 2016 H26T40.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2013/E_Bescheid_L1_81_2174092_2012_2013-06-18_2013-06-19-053252280.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2013/Ergänzungsersuchen - Einkommensteuer 2013.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2013/Einkommensteuerbescheid 2013.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2013/Finanzamtsbestätigung-wr-städtische-für2013.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2013/BF-Mieteingang 2013.numbers.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2013/Anlagenverzeichnis + Afa - 2013.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2013/E_Bescheid_BEGLEIT_81_2174092_2012_2013-06-18_2013-06-19-053252365.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2014/BF-Mieteingang 2014.numbers.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2014/Finanzamtsbestätigung-wr-städtische-für2014.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2014/Alianz-Finanzamtsbestätigung-2014.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2022/Elektronische_Briefsendung_der_Gemeinde_Biberwier_14042022_185918/e-beilage.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2022/Elektronische_Briefsendung_der_Gemeinde_Biberwier_14042022_185918/Rechtsmittelbelehrung_Bescheid_Vorschreibung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2022/Elektronische_Briefsendung_der_Gemeinde_Biberwier_14042022_185918/uebernahmebest�tigung_2022-04-19_15-26-55.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2022/Elektronische_Briefsendung_der_Gemeinde_Biberwier_14042022_185918/ZS0000368000045.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2022/Steuerberater_Uebernahmebestätigung_2022-07-12_17-30-34.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2022/Rechnung 2022-188 Bernd Flunger 17.11.22.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2022/A_Bescheid_E1_81_2174092_2021_2023-01-18_2023-02-10-19-06-52-462484.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/BRZ_BProzess_Sicherheitspasswort_2019-07-16-20-30-51.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Hypo Online Banking - Übernahmebestätigung - Finanzamt - Q42015.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Kinderbetreuung Flötenunterricht.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/EINKOMMENSTEUERBESCHEID 2015.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Allianz - Lebensversicherung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Wiener Städtische - Unfallversicherung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Uniqa - Krankenzusatzversicherung - Bank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/BF-Mieteingang 2015.numbers.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Allianz - Lebensversicherung -  Bank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Kirchenbeitrag.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Kinderbetreuung Hort.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/VORAUSZAHLUNGSBESCHEID 2016.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/E_Bescheid_EVZ_81_2174092_2015_2015-01-13_2015-01-13-230340780.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2015/Wiener Städtische - Unfallversicherung - Bank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Zehm-Zusammenfassung-umsaetze-girokonto_AT225700000200514725_EUR_2018-03-05_15-18-29.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Bestaetigung_Vorauszahlung_Q1_2017-02-13_12-24-49.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Benachrichtigung-Vorauszahlungsbetrag.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Allianz - Versicherungsprämienbestätigung 2017.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Sondervorschreinumg Heizung neu Uebernahmebestaetigung_2017-05-20_17-09-47.pdf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Bestätigung Vorauszahlung uebernahmebestaetigung_2017-10-30_18-35-50.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Vergebührung Bankbestaetigung_2017-09-03_14-48-18.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Wiener Städtische Unfallversicherung - Finanzamtsbestätigung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Sondervorschreibung Heizung neu Uebernahmebestaetigung_2017-05-20_17-07-31.pdf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Bestätigung Ihrer Zahlung an Attac Österreich.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Kirchenbeitrag Buchungsbestaetigung_2018-03-05_11-48-10.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Mieteinnahmen umsaetze-girokonto_AT065700030053340161_EUR_2018-03-05_17-48-56.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2017/Hort-Zusammenfassung-umsaetze-girokonto_AT225700000200514725_EUR_2018-03-05_16-04-39.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2010/ergänzungsersuchen - steuererklärung 2010 - databox-10.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2010/einkommenssteuerbescheid-2010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/Vorauszahlung Q3 Uebernahmebestätigung_2019-07-16_20-59-13.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/A_Bescheid_EVZ_81_2174092_2018_2018-05-02_2019-03-30-11-50-40-064704.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/A_Bescheid_EVZ_81_2174092_2019_2018-10-24_2019-03-30-11-50-51-266497.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/Kirchenbeitrag-uebernahmebestätigung_2019-12-27_11-54-00.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/Vorauszahlung Q4 Uebernahmebestätigung_2019-10-30_17-07-24.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/Versicherungsprämienbestätigung 2019.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/Allianz-Wertanpassung-Lebensversicherung-2019-WAP.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/Rum-Grundsteuer-ZS0001513000426.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2019/Finanzamtsbestätigung Wiener Städtische.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/Biberwier-Grundsteuer-ZS0000316000044.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/RechnungBürostuhl.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/Biberwier-Rechtsmittelbelehrung_Bescheid_Vorschreibung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/SchoberRechnung20190393 - uebernahmebestätigung_2021-11-07_15-23-52.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/Kirchenbeitrag - Uebernahmebestätigung_2021-12-06_13-26-15.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/DataBox18012021/E_Bescheid_SOND_81_2174092_2019_2021-01-15_2021-01-17-23-47-38-505304.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/DataBox18012021/E_Bescheid_EVZ_81_2174092_2021_2021-01-15_2021-01-17-23-47-38-533020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/DataBox18012021/E_Bescheid_E1_81_2174092_2019_2021-01-15_2021-01-17-23-47-38-442726.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2021/Rum-Grundsteuer-ZS0001980000418.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/BRZ_BProzess_Selbstbenennung_2019-07-16-20-30-20.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2020/Kirchenbeitrag2020 uebernahmebestätigung_2020-12-05_16-34-44.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2020/E_Bescheid_E1_81_2174092_2018_2020-03-10_2020-03-11-00-17-11-469649.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2020/E_Bescheid_SOND_81_2174092_2018_2020-03-10_2020-03-11-00-17-11-475660.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2020/Rum-Grundsteuer Hütte ZS0001721000425.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2020/E_Bescheid_EVZ_81_2174092_2020_2020-03-10_2020-03-11-00-17-11-481683.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2020/Versicherungsprämienbestätigung 2020.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2020/Wiener Städtische Unfallversicherung Finanzamtsbestätigung-2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2018/Vorauszahlung-Q2-Übernahmebestaetigung_2018-04-26_18-42-29.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2018/Benachrichtigung Vorauszahlung E_M_81_2174092_2018-01-16_2018-01-26-11-15-54-040530.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2018/Versicherungsprämienbestätigung 2018.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2018/Rum - Grundsteuer - ZS0001338000431.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2018/Wiener Städtische Unfallversicherung - Finanzamtsbestätigung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2018/Vorauszahlung-Q3_2018_Übernahmebestaetigung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2018/OPBACHER - Top40 - uebernahmebestaetigung_2018-04-15_16-11-35.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2018/Kirchenbeitrag - Uebernahmebestaetigung_2018-03-03_16-00-19.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2011/ergänzungsersuchen - steuererklärung 2011 - databox.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2011/Einkommensteuerbescheid 2011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2011/Begleitbrief 2011.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Spende Amnesty buchungsbestaetigung_2018-03-05_17-35-54.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Hort-Teil2-Zusammenfassung-umsaetze-girokonto_AT225700000200514725_EUR_2018-03-05_15-35-41.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Allianz - Versicherungsprämienbestätigung 2016.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Vorauszahlungsbenachrichtigung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Kirchenbeitrag buchungsbestaetigung_2018-03-05_15-11-11.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Vorauszahlunsbestaetigung_2016-10-23_21-03-02.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Zehm-Teil2-Zusammenfassung-umsaetze-girokonto_AT225700000200514725_EUR_2018-03-05_15-16-09.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Wiener Städtische - Finanzamtsbestätigung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Überweisung Reparatur Herd.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Finanz/2016/Zehm-Teil2-umsaetze-girokonto_AT225700000200514725_EUR_2018-03-05_15-14-27.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Manuals/plattenspieler-AT-LP120XBT-USB.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/hausverwaltung/Abstimmung Photovoltaik Weiherburggasse Kröss 2017-05-15 11-17.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/hausverwaltung/ Weiherburggasse 27 und 27a-i: Maßnahmen betreffend Feuchtigkeit Häuser mittlere Reihe und Garage, Außenbeleuchtung, etc. .pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/hausverwaltung/wges2002.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/hausverwaltung/EinstimmigkeitTerrassenvillen2014-01-11 12-23.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/solar/junkers-sk800zb.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/solar/junkers-sp750solar.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/solar/ueberweisung-reperatur-kollektorfuehler.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/solar/esr21_2_0.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/divers/prodotto.lowseat.scheda.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/divers/Miele Kühlschrank Allgemein.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Bauansuchen_Innsbruck.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Flugdach Terrasse Weiherburggasse 27a.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Miteigentümer - Flugdach Terrasse Weiherburggasse 27a.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Bernd Flunger/BF_Flugdach-Schnitt1_M20.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Bernd Flunger/new06_schnitt2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Bernd Flunger/new07_GR_schnitt1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Bernd Flunger/terrasse_2010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Bernd Flunger/BF_Flugdach-Schnitt2_M20.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Bernd Flunger/BF_GR_M25.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/flugdach/Bernd Flunger/BF_GR_M50.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/zaehlerstand - 05072011 - 1002_000757861680_3_74916422_12.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/tigas-ablesung-20151231.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/G442634 Rechnung Nr. MGO-148098_Weiherburggasse_27_a.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/Zählerstand Gas 20211231 1002_002065087305_3_36197772_12.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/1002_001545958075_3_252787131_12.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/Tigas Zählerstand 31.12.2016.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/Vertragsdokument_Deine_Unterlagen_MAX_Spezial_Gas_Privat.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/1002_001662693011_3_5472462_12.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/gas311208.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/Zählerselbstablesung Tigas 20211231.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/G442634_Vertragsunterlagen_Weiherburggasse_27_a.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/gas/G442634_Vertragsunterlagen_Weiherburggasse_27_a_20221227.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/wasser/wasserzaehler-zusammenfassung-quer.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/wasser/wasserzaehler-zusammenfassung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Wallbox/2022-05-07 Wallbox Rechnung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Wallbox/Ökostrombestätigung_S453187.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Wallbox/summary förderansuchen.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Wallbox/2022-06-12 Uebernahmebestätigung_Rechnung Wallbox.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Wallbox/2022-05-07 17-10 Wallbox Rechnung.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Wallbox/2022-06-15 Formular Förderung E-Mobilität.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Wallbox/2022-06-12 Rechnung Installation Wallbox.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/opbacher/vergleich-opbacher-internet.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Strauchschnitt/Strauchschnitt2022.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663831000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663647000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663645000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663626000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663641000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663600100.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663602100.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663835000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663646000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663830000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663625000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb603225000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663605100.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663627000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663832000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663611000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663615000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663601100.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603226000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603117000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603502000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603243000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603110000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603521000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603225000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603112000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603118000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/wanne/pdb603242000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/ancona/pdb663642000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/bad/alape-modellwechsel.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/boden/Kaehrs-Parketttechnik-Kapitel_5.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/boden/boden-leopoldstr-c00087178.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/kattovalaisimet5.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/MBM_C05_de.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/Hess_BARI_de.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/serienMini.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/PI_1900520_TRAK32_DE_00.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/_Hess_3_overview_de.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/elektro1a-seite27_35.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/355_361PixelD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/182_186Limelight D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/494_498LampadeeTrasfD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/084_093Parallel D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/032-050LePerroquet D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/288_289LaserDecoD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/140_141Woody D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/230_243TrimmerD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/214_221Grenwich D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/094_103Trimmer D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/452_453UpLightD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/138_139Miniwoody D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/222_229LightshedD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/418_429XOD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/406_417ilprismaD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/396_405LightairD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/332_342Sistema44D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/380_391WideD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/327_331Sisitema43D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/488_493Astra D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/471_487Plafoniere D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/276_279LaserPixel D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/438_441PlafoniD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/026_027Challenger D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/343_354PixelPlusD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/296_305OpticaD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/104_119Gabbiano D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/280_281LaserMoon D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/001-015INTDE2004 D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/016-025Sivra D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/282_285Laserf.ssiorientab D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/365_367IncassiD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/290_292LaserFreeLaserD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/142_143Universalspot D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/286_287Minilaser D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/362_364IncassiOrientabiliD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/293_295QuasarD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/120_137Shuttle D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/368_379BaseLightingD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/442_451LingottoD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/499_512IndiceALfProdD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/270_275SpinD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/252_269FrameD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/244_251MinimalD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/187_191DiscFocusZoom D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/192_195Miniberlino D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/392_395GalaxyD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/166_181Vela D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/454_470LinealuceD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/028_031Binari D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/430_437SellaD.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/iguzzi/196_213Berlino D.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/elektro1a-seite173_181.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/slot_decke_katalog-d.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/ALTALUCE_-_Katalog.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/Hess_CAPRI_de.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/licht/Hess_MESSINA_de.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/plat.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/arketipo-comunicazione_03_02.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/Lowland.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/Deep.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/de-sede/inserat-ds7-black.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/de-sede/lederkunde.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/Lowland-LowlandBeds_ml_pdf_h.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/George-II_03-05.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/Dadone_03-05.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/George-I_03-05.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/2004_1_ml_pdf_h-1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/arketipo-comunicazione_05_04.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/ds7.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/bigspender.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/rolf-benz-rb2000.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/2004_1_ml_pdf_h.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/prodotto.lowland.sch.Lowland-LowlandBeds.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/arketipo-comunicazione_04_03.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/recherche/wohnzimmer/box.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/strom/2022-01-24 13-53 Billig Will Ich - Stromlieferant.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/strom/S453187_Teilbetragsanpassung Strompreisbremse_Weiherburggas.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/vorhaenge/woerle-55Firmenzeitung5_low.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/wintergarten/horizontal-schiebe-wand-sl50-hsw-ausfuehrungsbeispiele.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/wintergarten/glasdach/BAULEX - Newsmagazin BAUEN ARCHITEKTUR WOHNEN Baulinks Bauforum Bauprofis.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/wintergarten/final/terrasse_2010.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/rieder/Tuerenfolder.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/rieder/Fensterfolder.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/garten/StadtrechtInnsbruck-Lärmschutz-A-05-1-2.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/Zima Bauträger/Auszug EMAIL.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Wohnung/ennemoser/uebernahmebestätigung_2022-01-30_12-42-50.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bewerbung/2023/BF-Titelblatt.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bewerbung/2023/BF-Bewerbung.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bewerbung/2023/Bewerbung_RK.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Bewerbung/2023/BF-CV.pages.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Mama/Rücktritt EasyTalk.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Mama/Aushang Garage.numbers.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Mama/Vermietung Garage - Eleonore Flunger - Vorlage.numbers.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Rolino/bewerbung/divers/Bewerbung_RK.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Rolino/bewerbung/divers/bewerbungRK.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Rolino/bewerbung/divers/Jobanzeige.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/MagLienhartSophiaSkoleose - Übernahmebestätigung_2021-10-28_21-01-13.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/2020-11-08 13-50 Honorarnote Meyer-Plank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/2020-11-08 13-33 Honorarnote Orthopäden.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/MeineSV_Einreichungsbestätigung 2020-11-08 13-38 Honorarnote Meyer-Plank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/2020-11-08 13-28 Honorarnote Sachs.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/2020-11-08 13-54 Honorarnote Hattmannsdorfer.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/2020-11-08 13-47 Honorarnote Meyer-Plank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/2020-11-08 13-42 Honorarnote Meyer-Plank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/MeineSV_Einreichungsbestätigung 2020-11-08 13-17 Honorarnote Sachs.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/MeineSV_Einreichungsbestätigung 2020-11-08 13-47 Honorarnote Meyer-Plank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/MeineSV_Einreichungsbestätigung 2020-11-08 13-42 Honorarnote Meyer-Plank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/MeineSV_Einreichungsbestätigung 2020-11-08 13-28 Honorarnote Sachs.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/MeineSV_Einreichungsbestätigung 2020-11-08 13-54 Honorarnote Hattmannsdorfer.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/MeineSV_Einreichungsbestätigung 2020-11-08 13-33 Honorarnote Orthopäden.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/MeineSV_Einreichungsbestätigung 2020-11-08 13-50 Honorarnote Meyer-Plank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/2020-11-08 13-38 Honorarnote Meyer-Plank.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/2020-11-08 13-17 Honorarnote Sachs.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/erledigt/uebernahmebestätigung_2021-12-06_13-15-38.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/DrMeyerPlankHonorarnote - 2021-10-03 13-18.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/wahrscheinlich erledigt/DrSachsLinsenSophia - uebernahmebestätigung_2020-12-05_17-13-15.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/wahrscheinlich erledigt/DrSachsUntersuchungSophia - uebernahmebestätigung_2020-12-05_17-09-30.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/wahrscheinlich erledigt/DrChristineMeyer-Plank - uebernahmebestätigung_2021-03-17_12-37-39.pdf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/wahrscheinlich erledigt/DrChristineMeyer-Plank - uebernahmebestätigung_2020-12-05_17-00-35.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/wahrscheinlich erledigt/DrZemannFuellung - uebernahmebestätigung_2021-03-15_13-24-47.pdf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/DrSachsSophia - Übernahmebestätigung_2021-10-03_13-03-10.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/DrSachsLinsenHonorarnote - 2021-10-05 14-20.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/DRSachsLinsen - Übernahmebestätigung_2021-10-05_14-18-58.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/MagLienhartSophiaSkoleoseHonorar - 2021-10-28 21-04.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/LPF_INFO_ZAHLUNGSZWECK.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/DrMeyerPlank-Übernahmebestätigung_2021-10-03_13-16-11.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/DrSachsSophiaHonorar - 2021-10-03 13-05.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/DrSachsKyriakiHonorar - 2021-10-03 13-12.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/2022-11-27 16-14 Rechnung Physio.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Privat/Krankenkassa/DrSachsKyriaki - Übernahmebestätigung_2021-10-03_13-11-31.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Programmierung - PDFs/applescripttutorial.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Programmierung - PDFs/WN604_DS_03Mar10.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Programmierung - PDFs/ObjC.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Programmierung - PDFs/OSX_Keys_12-3-2007.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Programmierung - PDFs/ocilib-3.5.0-user-guide-1.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/MPREIS/Divers/BF20210401 - Zustimmungserklärung Covid Screening.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/MPREIS/Divers/Integriertes Warenwirtschaftssystem.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/MPREIS/Divers/Application Developer's Guide - Rules Manager and Expression  Filter  - 10g.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/MPREIS/Divers/ BF20210401 - Covid-Test-Ergebnisprotokoll.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/MPREIS/valuephone/old/maerkte/oxygen/valuephone-maerkte.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/MPREIS/valuephone/vpmaerkte/hafina-valuephone-vpmaerkte-1-0 Kopie .pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/MPREIS/valuephone/vpmaerkte/hafina-valuephone-vpmaerkte-1-0.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/MPREIS/valuephone/vpmaerkte/hafina-valuephone-vpmaerkte-1-0_schema.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BarracudaVPN/old/Handbuch-MPREIS-Intern-MacOSX.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BarracudaVPN/Handbuch-v1.8.4-MPREIS-Intern-Mac.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung-Kilic.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/BewerbungRandstad.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung-Felder.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung-Wolf-Sistro.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung ElektroRohner.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung-Alutherm.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung-Felder-Anschreiben.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung-Felder-Lebenslauf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Ahmadbrief.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung-Medel.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung-Klein.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Formular- April 2021/A17487186.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Formular- April 2021/Ahmad_Papa.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Formular- April 2021/NSIA.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Ahmad-Lebenslauf.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Bewerbung Fiegl-Spielberger_Elektriker.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/Ahmad/Ahmad-Hauptschulzeugnis-klein.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BF-cd-cover/Spezifikation_D-Jacket4_1S_Kleinserie.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BF-cd-cover/Filmspezifikation_Digifile4s_BL24_v1_22.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BF-cd-cover/Filmspezifikation_Digifile4s_v1_22.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BF-cd-cover/Preisliste CD Kleinserie.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BF-Python/emcs/doc/emcs/VipWebservice_1.05_1e1fb.pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BF-Python/emcs/doc/emcs/Änderungen im Rahmen der EMCS  Phase 4 v1.0 (1).pdf
+FIND *.pdf: 20230222 20:02:49 /Users/berndflunger/Documents/BF-Python/emcs/doc/emcs/EVA-Handbuch.pdf
+FIND *.pdf: 20230222 20:02:49 I have finished!
+XMENU: 20230222 20:02:16 BYE.
