@@ -1,0 +1,52 @@
+X-Dmarc-Policy: none
+X-Ms-Exchange-Crosstenant-Originalarrivaltime: 28 Feb 2023 03:11:52.5168 (UTC)
+X-Originatororg: mpreis.at
+X-Proofpoint-Orig-Guid: miYNE-cXJkI-8GFSoNv_SgKRmmwY41lf
+X-Ms-Exchange-Transport-Crosstenantheadersstamped: AM9PR07MB7796
+X-Ms-Exchange-Antispam-Relay: 0
+X-Forefront-Antispam-Report: CIP:80.120.67.100;CTRY:AT;LANG:de;SCL:1;SRV:;IPV:CAL;SFV:NSPM;H:proxy1.mpreis.co.at;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(13230025)(4636009)(136003)(376002)(396003)(346002)(39860400002)(451199018)(40470700004)(46966006)(36840700001)(8936002)(478600001)(28085005)(5660300002)(36860700001)(41300700001)(235185007)(356005)(83170400001)(7696005)(2906002)(82740400003)(81166007)(70206006)(8676002)(70586007)(40460700003)(9686003)(6266002)(336012)(26005)(82310400005)(40480700001)(55016003)(186003)(47076005)(316002)(6916009)(33964004)(42882007)(6666004)(21480400003)(36900700001);DIR:OUT;SFP:1101;
+X-Ms-Exchange-Crosstenant-Originalattributedtenantconnectingip: TenantId=e68f2ef1-5ffd-426f-b5d2-cec606c8a21a;Ip=[80.120.67.100];Helo=[proxy1.mpreis.co.at]
+X-Icl-Score: 3.3320332300
+Authentication-Results: bimi.icloud.com; bimi=skipped reason="insufficient dmarc"
+Authentication-Results: dmarc.icloud.com; dmarc=none header.from=MPREIS.AT
+Authentication-Results: dkim-verifier.icloud.com; dkim=pass (1024-bit key) header.d=mpreis.at header.i=@mpreis.at header.b=bKs2uNn8
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of pv@mpreis.com designates 40.107.21.89 as permitted sender) smtp.mailfrom=pv@mpreis.com
+X-Ms-Exchange-Crosstenant-Authsource: DBAEUR03FT027.eop-EUR03.prod.protection.outlook.com
+Return-Path: <pv@mpreis.com>
+X-Proofpoint-Guid: miYNE-cXJkI-8GFSoNv_SgKRmmwY41lf
+X-Ms-Exchange-Crosstenant-Fromentityheader: HybridOnPrem
+X-Ms-Exchange-Authentication-Results: spf=pass (sender IP is 80.120.67.100) smtp.mailfrom=MPREIS.AT; dkim=none (message not signed) header.d=none;dmarc=bestguesspass action=none header.from=MPREIS.AT;
+X-Ms-Exchange-Crosstenant-Id: e68f2ef1-5ffd-426f-b5d2-cec606c8a21a
+X-Apple-Action: WL/INBOX
+X-Ms-Publictraffictype: Email
+X-Ms-Exchange-Crosstenant-Authas: Anonymous
+Original-Recipient: rfc822;bernd_flunger@mac.com
+X-Microsoft-Antispam: BCL:0;
+X-Apple-Uuid: 5e0c7a4f-4350-48ed-97c0-6602f91e3389
+Arc-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; b=JqkPy/nCdOHXj3c5WAuxKZx4d1jgtgROG6gy4c0SvBBDYRihQU5VO0xn9B0Qwdth2ctnNer2unli8BqZSNEbVJfMKOHJONa4OSQHtOYbsSKCsUcgQeWDR6QD8hOiuQav9C2+nLzIzegHtMXkb9DGrDQEOCuyGJc374/LTGnxtLBOT7+eOcKGTV5JuFjPFZi/BTsOCaLMG+t1CRMrpSsBBAnsv98fbX7N5QXHN6+rU0MeTmICJKyxbUKbZZXf8dMCkprHpqSH6/NT5eKyEazsvgraBTD35otNKxLYycXRQG3NHMRV43MV6ynn4KjODI5EMuKe+9Tz9Y464gVn65agYw==
+X-Ms-Exchange-Senderadcheck: 1
+X-Microsoft-Antispam-Message-Info: 6y/xbDeUN/88O43Nl8Czf1G4WGeio/6kuRbm8eMqUt/kwRJTJAG569N/RbliEUjSmHQuW+6+FuFnQ27v+BEUuq5SENDkKeSA4Ei/3IlxpOkmU1Mzj5oOiMm5OkGb4yMbQ8ptzD5dJv/2jikYBS8nJE1oTvD173Hu4OK74i37Er9ANSn7t+rpBqHZBumaEzmIjLlEyiSuDLB3GCmdYc8dIzAqDvhLoxk6b65KPM6WFDBmVcoqIXfzZEjiq8BYNhHzco4cMP2JoxmWWKdItZazVxcaiwzAascMkLUYzfKTr55DVu4fHQbeggNtWLyaW/a1DbnLqaVlAZgfedczpyuD/TmYysldp0p3tbNPDECN/HINLd37NbYnpH/D1MDUh5F9adH8+z8eHHKLNRKqvgbAya3QEs6mdd3O9aoc/p3dZMjRBwwN4NO4/1d2yXowmstP2gR3YKnqebGyF8ks2jWvjy05hyakjno5yjEztbhOi7SQqeb8LGHgztegTiXiXhqi4ukyuIS4DVz1JAqa4pDWSfNi/McpyTRbLzdnbr4WnSlhkZDQkgs7DyE0uG4DZgOe/XQgsrC+77w9k81W6j1btYWJWG7A0VH8oGrHYMu7boOps5BPngfnR3FaB5DQpC8lrihG91hpbB2QhxI14lZe+kCydEP66rRrdDxuOm2GzKCSOVbQeyz6M8QD7Lil6IPvnCtoENnC8YYbVliwP9+Kvs0P8Zi3EiTBOM6RqN+m8Y0=
+<1774071117.1677528633889.JavaMail.qspljob@ATINFW02.AT.INFONIQA.COM>
+X-Dmarc-Info: pass=none; dmarc-policy=(nopolicy); s=u0; d=u0; pdomain=MPREIS.AT
+Arc-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass (sender ip is 80.120.67.100) smtp.rcpttodomain=mac.com smtp.mailfrom=mpreis.at; dmarc=bestguesspass action=none header.from=mpreis.at; dkim=none (message not signed); arc=none
+Mime-Version: 1.0
+X-Clx-Shades: None
+X-Ms-Office365-Filtering-Correlation-Id: 5053df7c-eb72-4a19-3c55-08db19398a41
+X-Eopattributedmessage: 0
+Content-Type: multipart/mixed;  boundary="----=_Part_4400_-785821579.1677528633889"
+Received: from st11p00im-smtpin009.me.com by p126-mailgateway-smtp-75c4d8756f-kndtq (mailgateway 2310B184) with SMTP id 5e0c7a4f-4350-48ed-97c0-6602f91e3389  for <bernd_flunger@mac.com>; Tue, 28 Feb 2023 03:11:57 GMT
+Received: from EUR05-VI1-obe.outbound.protection.outlook.com (mail-vi1eur05on2089.outbound.protection.outlook.com [40.107.21.89]) by st11p00im-smtpin009.me.com (Postfix) with ESMTPS id 93000CC004E for <bernd_flunger@mac.com>; Tue, 28 Feb 2023 03:11:55 +0000 (UTC)
+Received: from DB6PR07CA0169.eurprd07.prod.outlook.com (2603:10a6:6:43::23) by AM9PR07MB7796.eurprd07.prod.outlook.com (2603:10a6:20b:302::18) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6134.24; Tue, 28 Feb 2023 03:11:52 +0000
+Received: from DBAEUR03FT027.eop-EUR03.prod.protection.outlook.com (2603:10a6:6:43:cafe::54) by DB6PR07CA0169.outlook.office365.com (2603:10a6:6:43::23) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6156.14 via Frontend Transport; Tue, 28 Feb 2023 03:11:52 +0000
+Received: from proxy1.mpreis.co.at (80.120.67.100) by DBAEUR03FT027.mail.protection.outlook.com (100.127.142.237) with Microsoft SMTP Server id 15.20.6156.12 via Frontend Transport; Tue, 28 Feb 2023 03:11:52 +0000
+Received: from ATINFW02.AT.INFONIQA.COM (hagen-infoniqa.mpreis.co.at [10.43.188.1]) by proxy1.mpreis.co.at (Postfix) with ESMTP id 28D4020D74 for <bernd_flunger@mac.com>; Mon, 27 Feb 2023 21:10:37 +0100 (CET)
+X-Ms-Traffictypediagnostic: DBAEUR03FT027:EE_|AM9PR07MB7796:EE_
+Received-Spf: pass (spf.icloud.com: domain of pv@mpreis.com designates 40.107.21.89 as permitted sender) receiver=spf.icloud.com; client-ip=40.107.21.89; helo=EUR05-VI1-obe.outbound.protection.outlook.com; envelope-from=pv@mpreis.com
+Received-Spf: Pass (protection.outlook.com: domain of MPREIS.AT designates 80.120.67.100 as permitted sender) receiver=protection.outlook.com; client-ip=80.120.67.100; helo=proxy1.mpreis.co.at; pr=C
+X-Apple-Movetofolder: INBOX 
+X-Ms-Exchange-Crosstenant-Network-Message-Id: 5053df7c-eb72-4a19-3c55-08db19398a41
+X-Icl-Info: GAtbVUseBVFHSVVESgMGUldZCh4MXUMRSFsIVVhDQ19XFwkZHRIWBxFERAcOcFsSBxwPBFZTWQ9X WQATRRJ7Mic8LyRWcWJAVQoPB0USAlJbSFZAVgIHTE1ARFcQVVoNSFsjIioAA08jMFdaF1JTTBoM EhUXRVgGWwkUGAxVVRYcFghZF0VCDhoWDVkbX1tAVQkSBUUSWwMcFUsBEQFTFwdJUxgWAgZaTFcJ AgxSWRcbHUgHCl9CBxYNDxgWHlkXARUJGBMeVQ0YW0YTHA0UDwULAx4LHlcWV1kLHhwNFF5ETlFD SAcHU0ROSEZOBwFXR0FQREsIDltbMwcBGX1XCxlXFwQIXFwNFzknIzF+cDVFS0g2LB5/LDM2KD4p cRghOjRYVVhCVV9XGwMFFlRpBBkMCBAdQnYPFBpIFBddFA==
+X-Icloud-Mail-Bwl: 1
+X-Mantsh: 1TEIXWV4fGVoaGkNHB1tfQEQbHhocGBkaGxEKTEMXGxoEHRwEGxMTBBIQGx4aHxo RCkxZFxsTHBEKWUQXYHMcEmtAeWx5c2ERCllNF2RFRE8RCllJFxpxGhAadwYbHRxxHxwQGncGG BoGGhEKWV4XbGx5EQpDThdHQ3NkbwdJcmBBYwcSbWx5RWRcdXlNYXhHR11zHhtGTBEKWFwXGQQ aBB8aBEhPXksYBRsaBBscGAQZGgQYEhAbHhofGhEKXlkXSGdSfXIRCk1cFxkTEQpMWhdpa21NT U0RCkNaFx4aBBsaHQQYGwQSExEKQl4XGxEKQlwXGxEKXk4XGxEKQksXbVxrQXpNWGR6ZHMRCkJ JF21ca0F6TVhkemRzEQpCRRdmZ1BLHlsdWmdPSBEKQk4XbVxrQXpNWGR6ZHMRCkJMF2xiXnJuW kBSHAV+EQpCbBdmZ1BLHlsdWmdPSBEKQkAXZ19EZBpoXG1zG38RCkJYF2xAEwUYSXBpcBt/EQp CeBdgSFJwfWYdEhsYUhEKTV4XGxEKWlgXGxEKcGgXaR58a0dFTX1vX3AQGhEKcGgXaFBsUBtHb 2kcWG4QGRoRCnBoF2lSZV5cckcbQRN4EBkaEQpwaBdnSBl4cExyQUZHQBAZGhEKcGgXY18BS35 GYXpFBVIQGRoRCnB9F2USbG9CZhN9Uk5vEBkaEQpwaxd6Tx1yZxlNE2N4GhAaEQpwSxdnSx1kH GBvfWkTQRAaEQpwfxdrSU9HQm5eWmhZWhAeEhEKcF8XZWBBQWZyAR9CaRkQGRoRCnBDF214bk9 sbhh8Xk0BEBkaEQptfhcbEQpYTRdLEQ==
+Arc-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector9901; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=N6Ydr1xucFr49S8bkC6ZXOSPlSfKViT+ns0qp62+M0s=; b=JFCagiKuGaQFyCnf4wv7C0vKFHpZG/Qu75/rd3zJhU/GiSX5y0xFzhu0Tz6+e1ccZZcynv+DydYHRIvIXUzYQWA9QmyBbgEMefW7KutO1InYBHl+T2+t6hqm3kNSH+ZU7pwDsj8pABvISJHY8oeo6Rl94/gEcF9WVWrWvolHcMScpSS2Lvwg0IkIFXVP0Un+TGIsliCYv4YpDYc+YbYNw6rLPnXpNPGkIBDCex6ncQoddxeXx03GbdAJiWkiD6d2wbqr46fqMyMFXXJCR50V/o1zxGv0ywYZTo6guDNlyv7iCBUESf9dVSrhNRp462YSrcqfdqPzQTLPvwJp61ytEg==
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mpreis.at; s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=N6Ydr1xucFr49S8bkC6ZXOSPlSfKViT+ns0qp62+M0s=; b=bKs2uNn8oyxwrinc/XF/ZG1lAIEVyEB/KtfWOWN8yrTKA1eFCX9JVEU3i+5foj8Hosa1XNlbPlP4T7WmXsfJjMbQMfdMXjBqMYr3mfZE2p4scIojbZTl9vEtO+Vr84wwmvMQoQF5gxIjFUYJ3TwFOxlrutKK7Ttblvsmc+rlGL8=
