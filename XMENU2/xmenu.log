@@ -1,38 +1,92 @@
-XMENU 2023-05-02 18:16:11,540 Thread [MainThread] 8521603904 INFO: Starting XMENU (logfile=./xmenu.log,encoding=utf-8)...
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Current directory: /Users/berndflunger/Documents/BF-Python/XMENU2
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Current encoding: utf-8
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Found Option log: info
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Found Option logdir: .
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Found Option cmdfiledir: .
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Inifilename: /Users/berndflunger/.XMENU
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: LOGDIR set to: .
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: CMDFILEDIR set to: .
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Screen width: 2560
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Screen height:1440
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Window Width: 1552
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Window Height: 998
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Window X: -2023
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Window Y: 142
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Session logfile is ./xmenu-session.log...
-XMENU 2023-05-02 18:16:11,541 Thread [MainThread] 8521603904 INFO: Commandfile is ./xmenu.json...
-XMENU 2023-05-02 18:16:11,542 Thread [MainThread] 8521603904 INFO: {'version': '1.0', 'menuitems': [{'cmdname': 'PWD', 'cmdoutput': True, 'cmd': 'pwd'}, {'cmdname': 'LS .', 'cmdoutput': True, 'cmd': 'ls -al .'}, {'cmdname': 'FIND *.pdf', 'cmdoutput': True, 'cmd': 'find /Users/berndflunger/Documents -name "*.pdf" -print'}, {'cmdname': 'SILENTFIND *.*', 'cmdoutput': False, 'cmd': 'find /Users/berndflunger/Documents -name "*.*" -print'}, {'cmdname': 'LS *.py', 'cmdoutput': True, 'cmd': 'ls -al *.py'}, {'cmdname': 'SLEEP 10', 'cmdoutput': True, 'cmd': 'sleep 10'}]}
-XMENU 2023-05-02 18:16:11,542 Thread [MainThread] 8521603904 INFO: Commandfile version: 1.0
-XMENU 2023-05-02 18:16:11,551 Thread [MainThread] 8521603904 INFO: 1. Menuitem: PWD: pwd,True
-XMENU 2023-05-02 18:16:11,552 Thread [MainThread] 8521603904 INFO: 2. Menuitem: LS .: ls -al .,True
-XMENU 2023-05-02 18:16:11,552 Thread [MainThread] 8521603904 INFO: 3. Menuitem: FIND *.pdf: find /Users/berndflunger/Documents -name "*.pdf" -print,True
-XMENU 2023-05-02 18:16:11,552 Thread [MainThread] 8521603904 INFO: 4. Menuitem: SILENTFIND *.*: find /Users/berndflunger/Documents -name "*.*" -print,False
-XMENU 2023-05-02 18:16:11,552 Thread [MainThread] 8521603904 INFO: 5. Menuitem: LS *.py: ls -al *.py,True
-XMENU 2023-05-02 18:16:11,552 Thread [MainThread] 8521603904 INFO: 6. Menuitem: SLEEP 10: sleep 10,True
-XMENU 2023-05-02 18:16:14,816 Thread [MainThread] 8521603904 INFO: Starting command thread SLEEP 10, cmd=sleep 10 (current thread ident=8521603904/nativeid=157425)...
-XMENU 2023-05-02 18:16:14,818 Thread [SLEEP 10] 6154137600 INFO: Starting command SLEEP 10 in the new thread thread with ident=6154137600/nativeid=157689...
-XMENU 2023-05-02 18:16:14,818 Thread [MainThread] 8521603904 INFO: Active Thread count: 2
-XMENU 2023-05-02 18:16:15,063 Thread [MainThread] 8521603904 INFO: Thread has started: {'id': 6154137600, 'cmdname': 'SLEEP 10', 'state': 'started', 'retval': 0, 'msg': 'I have started...', 'timestamp': datetime.datetime(2023, 5, 2, 18, 16, 14, 819048)}
-XMENU 2023-05-02 18:16:24,854 Thread [SLEEP 10] 6154137600 INFO: Ended thread SLEEP 10, cmd=sleep 10 (current thread ident=6154137600/nativeid=157689)...
-XMENU 2023-05-02 18:16:24,959 Thread [SLEEP 10] 6154137600 INFO: Ended command SLEEP 10 in the thread with ident=6154137600/nativeid=157689 with retval 0
-XMENU 2023-05-02 18:16:25,094 Thread [MainThread] 8521603904 INFO: Thread has ended: {'id': 6154137600, 'cmdname': 'SLEEP 10', 'state': 'ended', 'retval': 0, 'msg': 'I have finished!', 'timestamp': datetime.datetime(2023, 5, 2, 18, 16, 24, 854491)}
-XMENU 2023-05-02 18:16:26,262 Thread [MainThread] 8521603904 INFO: Shutting down (current thread count: 1)...
-XMENU 2023-05-02 18:16:26,262 Thread [MainThread] 8521603904 INFO: Waiting for thread SLEEP 10 (ident=6154137600/nativeid=157689) to shut down (is alive: False)
-XMENU 2023-05-02 18:16:26,262 Thread [MainThread] 8521603904 INFO: Thread SLEEP 10 (ident=6154137600/nativeid=157689) result: 0
-XMENU 2023-05-02 18:16:26,262 Thread [MainThread] 8521603904 INFO: Waiting for work in queues to be done...
-XMENU 2023-05-02 18:16:26,263 Thread [MainThread] 8521603904 INFO: Closed session logfile ./xmenu-session.log.
-XMENU 2023-05-02 18:16:26,264 Thread [MainThread] 8521603904 INFO: Done XMENU (retval=(0, 'OK'))!
+XMENU 2023-08-22 15:09:43,387 Thread [MainThread] 8217436288 INFO: Starting XMENU (logfile=./xmenu.log,encoding=utf-8)...
+XMENU 2023-08-22 15:09:43,387 Thread [MainThread] 8217436288 INFO: Current directory: /Users/berndflunger/Documents/BF-Python/XMENU2
+XMENU 2023-08-22 15:09:43,387 Thread [MainThread] 8217436288 INFO: Current encoding: utf-8
+XMENU 2023-08-22 15:09:43,387 Thread [MainThread] 8217436288 INFO: Found Option log: info
+XMENU 2023-08-22 15:09:43,387 Thread [MainThread] 8217436288 INFO: Found Option logdir: .
+XMENU 2023-08-22 15:09:43,387 Thread [MainThread] 8217436288 INFO: Found Option cmdfiledir: .
+XMENU 2023-08-22 15:09:43,387 Thread [MainThread] 8217436288 INFO: Inifilename: /Users/berndflunger/.XMENU
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: LOGDIR set to: .
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: CMDFILEDIR set to: .
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Screen width: 2560
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Screen height:1440
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Window Width: 1552
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Window Height: 998
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Window X: -2023
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Window Y: 142
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Session logfile is ./xmenu-session.log...
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Commandfile is ./xmenu.json...
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: {'version': '1.0', 'menuitems': [{'cmdname': 'PWD', 'cmdoutput': True, 'cmd': 'pwd'}, {'cmdname': 'LS .', 'cmdoutput': True, 'cmd': 'ls -al .'}, {'cmdname': 'FIND *.pdf', 'cmdoutput': True, 'cmd': 'find /Users/berndflunger/Documents -name "*.pdf" -print'}, {'cmdname': 'SILENTFIND *.*', 'cmdoutput': False, 'cmd': 'find /Users/berndflunger/Documents -name "*.*" -print'}, {'cmdname': 'LS *.py', 'cmdoutput': True, 'cmd': 'ls -al *.py'}, {'cmdname': 'SLEEP 10', 'cmdoutput': True, 'cmd': 'sleep 10'}]}
+XMENU 2023-08-22 15:09:43,388 Thread [MainThread] 8217436288 INFO: Commandfile version: 1.0
+XMENU 2023-08-22 15:09:43,433 Thread [MainThread] 8217436288 INFO: 1. Menuitem: PWD: pwd,True
+XMENU 2023-08-22 15:09:43,434 Thread [MainThread] 8217436288 INFO: 2. Menuitem: LS .: ls -al .,True
+XMENU 2023-08-22 15:09:43,434 Thread [MainThread] 8217436288 INFO: 3. Menuitem: FIND *.pdf: find /Users/berndflunger/Documents -name "*.pdf" -print,True
+XMENU 2023-08-22 15:09:43,434 Thread [MainThread] 8217436288 INFO: 4. Menuitem: SILENTFIND *.*: find /Users/berndflunger/Documents -name "*.*" -print,False
+XMENU 2023-08-22 15:09:43,434 Thread [MainThread] 8217436288 INFO: 5. Menuitem: LS *.py: ls -al *.py,True
+XMENU 2023-08-22 15:09:43,434 Thread [MainThread] 8217436288 INFO: 6. Menuitem: SLEEP 10: sleep 10,True
+XMENU 2023-08-22 15:09:46,493 Thread [MainThread] 8217436288 INFO: Starting command thread PWD, cmd=pwd (current thread ident=8217436288/nativeid=63989)...
+XMENU 2023-08-22 15:09:46,496 Thread [PWD] 6185676800 INFO: Starting command PWD in the new thread thread with ident=6185676800/nativeid=64347...
+XMENU 2023-08-22 15:09:46,496 Thread [MainThread] 8217436288 INFO: Active Thread count: 2
+XMENU 2023-08-22 15:09:46,525 Thread [PWD] 6185676800 INFO: Ended thread PWD, cmd=pwd (current thread ident=6185676800/nativeid=64347)...
+XMENU 2023-08-22 15:09:46,631 Thread [PWD] 6185676800 INFO: Ended command PWD in the thread with ident=6185676800/nativeid=64347 with retval 0
+XMENU 2023-08-22 15:09:46,948 Thread [MainThread] 8217436288 INFO: Thread has started: {'id': 6185676800, 'cmdname': 'PWD', 'state': 'started', 'retval': 0, 'msg': 'I have started...', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 46, 497059)}
+XMENU 2023-08-22 15:09:46,950 Thread [MainThread] 8217436288 INFO: Thread has ended: {'id': 6185676800, 'cmdname': 'PWD', 'state': 'ended', 'retval': 0, 'msg': 'I have finished!', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 46, 526001)}
+XMENU 2023-08-22 15:09:48,511 Thread [MainThread] 8217436288 INFO: Starting command thread LS ., cmd=ls -al . (current thread ident=8217436288/nativeid=63989)...
+XMENU 2023-08-22 15:09:48,512 Thread [LS .] 6185676800 INFO: Starting command LS . in the new thread thread with ident=6185676800/nativeid=64430...
+XMENU 2023-08-22 15:09:48,512 Thread [MainThread] 8217436288 INFO: Active Thread count: 2
+XMENU 2023-08-22 15:09:48,538 Thread [LS .] 6185676800 INFO: Ended thread LS ., cmd=ls -al . (current thread ident=6185676800/nativeid=64430)...
+XMENU 2023-08-22 15:09:48,644 Thread [LS .] 6185676800 INFO: Ended command LS . in the thread with ident=6185676800/nativeid=64430 with retval 0
+XMENU 2023-08-22 15:09:48,957 Thread [MainThread] 8217436288 INFO: Thread has started: {'id': 6185676800, 'cmdname': 'LS .', 'state': 'started', 'retval': 0, 'msg': 'I have started...', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 48, 512678)}
+XMENU 2023-08-22 15:09:49,113 Thread [MainThread] 8217436288 INFO: Thread has ended: {'id': 6185676800, 'cmdname': 'LS .', 'state': 'ended', 'retval': 0, 'msg': 'I have finished!', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 48, 539152)}
+XMENU 2023-08-22 15:09:51,094 Thread [MainThread] 8217436288 INFO: Starting command thread FIND *.pdf, cmd=find /Users/berndflunger/Documents -name "*.pdf" -print (current thread ident=8217436288/nativeid=63989)...
+XMENU 2023-08-22 15:09:51,094 Thread [FIND *.pdf] 6185676800 INFO: Starting command FIND *.pdf in the new thread thread with ident=6185676800/nativeid=64564...
+XMENU 2023-08-22 15:09:51,094 Thread [MainThread] 8217436288 INFO: Active Thread count: 2
+XMENU 2023-08-22 15:09:51,120 Thread [MainThread] 8217436288 INFO: Thread has started: {'id': 6185676800, 'cmdname': 'FIND *.pdf', 'state': 'started', 'retval': 0, 'msg': 'I have started...', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 51, 94539)}
+XMENU 2023-08-22 15:09:51,262 Thread [FIND *.pdf] 6185676800 INFO: Ended thread FIND *.pdf, cmd=find /Users/berndflunger/Documents -name "*.pdf" -print (current thread ident=6185676800/nativeid=64564)...
+XMENU 2023-08-22 15:09:51,367 Thread [FIND *.pdf] 6185676800 INFO: Ended command FIND *.pdf in the thread with ident=6185676800/nativeid=64564 with retval 0
+XMENU 2023-08-22 15:09:53,209 Thread [MainThread] 8217436288 INFO: Starting command thread SILENTFIND *.*, cmd=find /Users/berndflunger/Documents -name "*.*" -print (current thread ident=8217436288/nativeid=63989)...
+XMENU 2023-08-22 15:09:53,210 Thread [SILENTFIND *.*] 6185676800 INFO: Starting command SILENTFIND *.* in the new thread thread with ident=6185676800/nativeid=64669...
+XMENU 2023-08-22 15:09:53,210 Thread [MainThread] 8217436288 INFO: Active Thread count: 2
+XMENU 2023-08-22 15:09:53,268 Thread [MainThread] 8217436288 INFO: Thread has started: {'id': 6185676800, 'cmdname': 'SILENTFIND *.*', 'state': 'started', 'retval': 0, 'msg': 'I have started...', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 53, 210195)}
+XMENU 2023-08-22 15:09:53,277 Thread [SILENTFIND *.*] 6185676800 INFO: Ended thread SILENTFIND *.*, cmd=find /Users/berndflunger/Documents -name "*.*" -print (current thread ident=6185676800/nativeid=64669)...
+XMENU 2023-08-22 15:09:53,336 Thread [MainThread] 8217436288 INFO: Thread has ended: {'id': 6185676800, 'cmdname': 'SILENTFIND *.*', 'state': 'ended', 'retval': 0, 'msg': 'I have finished!', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 53, 277957)}
+XMENU 2023-08-22 15:09:53,383 Thread [SILENTFIND *.*] 6185676800 INFO: Ended command SILENTFIND *.* in the thread with ident=6185676800/nativeid=64669 with retval 0
+XMENU 2023-08-22 15:09:55,709 Thread [MainThread] 8217436288 INFO: Starting command thread LS *.py, cmd=ls -al *.py (current thread ident=8217436288/nativeid=63989)...
+XMENU 2023-08-22 15:09:55,710 Thread [LS *.py] 6185676800 INFO: Starting command LS *.py in the new thread thread with ident=6185676800/nativeid=64773...
+XMENU 2023-08-22 15:09:55,714 Thread [MainThread] 8217436288 INFO: Active Thread count: 2
+XMENU 2023-08-22 15:09:55,733 Thread [LS *.py] 6185676800 INFO: Ended thread LS *.py, cmd=ls -al *.py (current thread ident=6185676800/nativeid=64773)...
+XMENU 2023-08-22 15:09:55,735 Thread [MainThread] 8217436288 INFO: Thread has started: {'id': 6185676800, 'cmdname': 'LS *.py', 'state': 'started', 'retval': 0, 'msg': 'I have started...', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 55, 710087)}
+XMENU 2023-08-22 15:09:55,745 Thread [MainThread] 8217436288 INFO: Thread has ended: {'id': 6185676800, 'cmdname': 'LS *.py', 'state': 'ended', 'retval': 0, 'msg': 'I have finished!', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 55, 733589)}
+XMENU 2023-08-22 15:09:55,837 Thread [LS *.py] 6185676800 INFO: Ended command LS *.py in the thread with ident=6185676800/nativeid=64773 with retval 0
+XMENU 2023-08-22 15:09:57,645 Thread [MainThread] 8217436288 INFO: Starting command thread LS ., cmd=ls -al . (current thread ident=8217436288/nativeid=63989)...
+XMENU 2023-08-22 15:09:57,645 Thread [LS .] 6185676800 INFO: Starting command LS . in the new thread thread with ident=6185676800/nativeid=64851...
+XMENU 2023-08-22 15:09:57,645 Thread [MainThread] 8217436288 INFO: Active Thread count: 2
+XMENU 2023-08-22 15:09:57,668 Thread [LS .] 6185676800 INFO: Ended thread LS ., cmd=ls -al . (current thread ident=6185676800/nativeid=64851)...
+XMENU 2023-08-22 15:09:57,684 Thread [MainThread] 8217436288 INFO: Thread has started: {'id': 6185676800, 'cmdname': 'LS .', 'state': 'started', 'retval': 0, 'msg': 'I have started...', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 57, 645692)}
+XMENU 2023-08-22 15:09:57,772 Thread [LS .] 6185676800 INFO: Ended command LS . in the thread with ident=6185676800/nativeid=64851 with retval 0
+XMENU 2023-08-22 15:09:57,928 Thread [MainThread] 8217436288 INFO: Thread has ended: {'id': 6185676800, 'cmdname': 'LS .', 'state': 'ended', 'retval': 0, 'msg': 'I have finished!', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 57, 669023)}
+XMENU 2023-08-22 15:09:59,629 Thread [MainThread] 8217436288 INFO: Starting command thread SLEEP 10, cmd=sleep 10 (current thread ident=8217436288/nativeid=63989)...
+XMENU 2023-08-22 15:09:59,629 Thread [SLEEP 10] 6185676800 INFO: Starting command SLEEP 10 in the new thread thread with ident=6185676800/nativeid=64941...
+XMENU 2023-08-22 15:09:59,629 Thread [MainThread] 8217436288 INFO: Active Thread count: 2
+XMENU 2023-08-22 15:09:59,692 Thread [MainThread] 8217436288 INFO: Thread has started: {'id': 6185676800, 'cmdname': 'SLEEP 10', 'state': 'started', 'retval': 0, 'msg': 'I have started...', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 59, 629783)}
+XMENU 2023-08-22 15:10:09,657 Thread [SLEEP 10] 6185676800 INFO: Ended thread SLEEP 10, cmd=sleep 10 (current thread ident=6185676800/nativeid=64941)...
+XMENU 2023-08-22 15:10:09,692 Thread [MainThread] 8217436288 INFO: Thread has ended: {'id': 6185676800, 'cmdname': 'SLEEP 10', 'state': 'ended', 'retval': 0, 'msg': 'I have finished!', 'timestamp': datetime.datetime(2023, 8, 22, 15, 10, 9, 657198)}
+XMENU 2023-08-22 15:10:09,762 Thread [SLEEP 10] 6185676800 INFO: Ended command SLEEP 10 in the thread with ident=6185676800/nativeid=64941 with retval 0
+XMENU 2023-08-22 15:10:17,925 Thread [MainThread] 8217436288 INFO: Thread has ended: {'id': 6185676800, 'cmdname': 'FIND *.pdf', 'state': 'ended', 'retval': 0, 'msg': 'I have finished!', 'timestamp': datetime.datetime(2023, 8, 22, 15, 9, 51, 262256)}
+XMENU 2023-08-22 15:10:33,001 Thread [MainThread] 8217436288 INFO: Shutting down (current thread count: 1)...
+XMENU 2023-08-22 15:10:33,001 Thread [MainThread] 8217436288 INFO: Waiting for thread PWD (ident=6185676800/nativeid=64347) to shut down (is alive: False)
+XMENU 2023-08-22 15:10:33,001 Thread [MainThread] 8217436288 INFO: Waiting for thread LS . (ident=6185676800/nativeid=64430) to shut down (is alive: False)
+XMENU 2023-08-22 15:10:33,001 Thread [MainThread] 8217436288 INFO: Waiting for thread FIND *.pdf (ident=6185676800/nativeid=64564) to shut down (is alive: False)
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Waiting for thread SILENTFIND *.* (ident=6185676800/nativeid=64669) to shut down (is alive: False)
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Waiting for thread LS *.py (ident=6185676800/nativeid=64773) to shut down (is alive: False)
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Waiting for thread LS . (ident=6185676800/nativeid=64851) to shut down (is alive: False)
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Waiting for thread SLEEP 10 (ident=6185676800/nativeid=64941) to shut down (is alive: False)
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Thread PWD (ident=6185676800/nativeid=64347) result: 0
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Thread LS . (ident=6185676800/nativeid=64430) result: 0
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Thread FIND *.pdf (ident=6185676800/nativeid=64564) result: 0
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Thread SILENTFIND *.* (ident=6185676800/nativeid=64669) result: 0
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Thread LS *.py (ident=6185676800/nativeid=64773) result: 0
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Thread LS . (ident=6185676800/nativeid=64851) result: 0
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Thread SLEEP 10 (ident=6185676800/nativeid=64941) result: 0
+XMENU 2023-08-22 15:10:33,002 Thread [MainThread] 8217436288 INFO: Waiting for work in queues to be done...
+XMENU 2023-08-22 15:10:33,004 Thread [MainThread] 8217436288 INFO: Closed session logfile ./xmenu-session.log.
+XMENU 2023-08-22 15:10:33,005 Thread [MainThread] 8217436288 INFO: Done XMENU (retval=(0, 'OK'))!
