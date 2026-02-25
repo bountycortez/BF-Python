@@ -1,7 +1,10 @@
 # ==========================================================================================================================
 # xmenu by BF
 # --------------------------------------------------------------------------------------------------------------------------
-# 20230408 BF V0.1 birth of app
+# 20230408-000000 BF V0.1  birth of app
+# 20260225-000000 BF V0.2  Helios: fix timestamp format (%M), fix tk.IntVar overwrite, fix shell=True injection,
+#                           fix retval tuple compare, remove redundant jsonfile.close(),
+#                           bare except→except Exception, lock moved to __init__
 # ==========================================================================================================================
 import os
 import sys
@@ -27,6 +30,7 @@ import threading
 import queue
 import functools
 import subprocess
+import shlex
 
 #import pprint
 import inspect
@@ -148,7 +152,7 @@ class App():
     # define cleanup
     def cleanup(self):
         self.write_settings()
-        if self.retval>RETVAL_OK:
+        if self.retval[0] > RETVAL_OK[0]:
             self.logger.critical(f"Failed {PRGNAME} (retval={self.retval})!")
         else:
             self.logger.info(f"Done {PRGNAME} (retval={self.retval})!")
@@ -215,8 +219,8 @@ class App():
         try:
             with open(self.inifilename, 'w', encoding=self.encoding) as inifile:
                 self.appconfig.write(inifile)
-        except:
-            self.logger.warning(f"save_settings(): Cannot write app config file {self.inifilename}!")
+        except Exception as err:
+            self.logger.warning(f"save_settings(): Cannot write app config file {self.inifilename}! ({err})")
             return False
 
         return True
@@ -284,7 +288,7 @@ class GuiApp(App,ttk.Window):
         try:
             self.sessionlogfile=open(file=self.sessionlogfilename,mode="w",encoding=self.encoding)
             self.logger.info(f"Session logfile is {self.sessionlogfilename}...")
-            timestampstring=datetime.datetime.now().strftime("%Y%m%d %H:%m:%S")
+            timestampstring=datetime.datetime.now().strftime("%Y%m%d %H:%M:%S")
             msg=PRGNAME+': '+timestampstring+' STARTING...'+'\n'
             self.sessionlogfile.write(msg)
 
@@ -297,12 +301,12 @@ class GuiApp(App,ttk.Window):
     # extend destroy
     def destroy(self):
         try:
-            timestampstring=datetime.datetime.now().strftime("%Y%m%d %H:%m:%S")
+            timestampstring=datetime.datetime.now().strftime("%Y%m%d %H:%M:%S")
             msg=PRGNAME+': '+timestampstring+' BYE.'+'\n'
             self.sessionlogfile.write(msg)
             self.sessionlogfile.close()
             self.logger.info(f"Closed session logfile {self.sessionlogfilename}.")
-        except:
+        except Exception:
             pass
 
         App.cleanup(self)
@@ -353,28 +357,28 @@ class GuiApp(App,ttk.Window):
             self.win_x=int(self.appconfig["WINDOW"]["x"])
             if self.win_x > self.screen_width:
                 self.win_x=int(self.screen_width / 3)
-        except:
+        except Exception:
             pass
 
         try:
             self.win_y=int(self.appconfig["WINDOW"]["y"])
             if self.win_y > self.screen_height:
                 self.win_y=int(self.win_height-self.win_height/2)
-        except:
+        except Exception:
             pass
 
         try:
             self.win_width=int(self.appconfig["WINDOW"]["width"])
             if (self.win_width>self.screen_width):
                 self.win_width=int(self.screen_width)
-        except:
+        except Exception:
             pass
 
         try:
             self.win_height=int(self.appconfig["WINDOW"]["height"])
             if (self.win_height>self.screen_height):
                 self.win_height=int(self.screen_height)
-        except:
+        except Exception:
             pass
 
         return retval
@@ -481,8 +485,7 @@ class GuiApp(App,ttk.Window):
 
         # create debug enable, clear and quit button
         ###@self.dbgcheckbox = customtkinter.CTkCheckBox(master=self.utils_frame, text="Debug Logging")
-        self.debug_var = tk.IntVar(self)
-        self.debug_var=0
+        self.debug_var = tk.IntVar(self, value=0)
         self.dbgcheckbox = ttk.Checkbutton(master=self.utils_frame, text="Debug Logging", variable=self.debug_var, bootstyle="success,round-toggle")
         self.dbgcheckbox.grid(row=5, column=4, pady=10, padx=20, sticky="n")
         ###@self.dbgcheckboxtip=idlelib.tooltip.Hovertip(self.dbgcheckbox,"""
@@ -530,6 +533,9 @@ class XmenuApp(GuiApp):
     def __init__(self):
 
         super().__init__()
+
+        # initialize threading lock early (before any thread can start)
+        self.lock=threading.Lock()
 
         # initialize lists
         self.menuitems=[]
@@ -713,8 +719,6 @@ class XmenuApp(GuiApp):
             #self.quit()
             return
 
-        jsonfile.close()
-
         self.cmdfileversion="1.0"
         try:
             self.cmdfileversion=self.cmddata["version"]
@@ -794,8 +798,9 @@ class XmenuApp(GuiApp):
         # the main task
         # -------------------------------------------------
         self.logger.debug(f"Starting subprocess for cmd {cmd} (cmdoutput={cmdoutput}) in thread {threadname} (current thread ident={threadid}/nativeid={thrednativeid})...")
+        cmdargs = shlex.split(cmd)
         if cmdoutput:
-            subproc = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,stdin=None,cwd=None,text=True,encoding=self.encoding,bufsize=1)
+            subproc = subprocess.Popen(cmdargs,shell=False,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,stdin=None,cwd=None,text=True,encoding=self.encoding,bufsize=1)
             while True:
                 line=subproc.stdout.readline()
                 if not line:
@@ -812,7 +817,7 @@ class XmenuApp(GuiApp):
                     }
                 )
         else:
-            subproc = subprocess.Popen(cmd,shell=True,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE,stdin=None,text=True,encoding=self.encoding,bufsize=1)
+            subproc = subprocess.Popen(cmdargs,shell=False,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE,stdin=None,text=True,encoding=self.encoding,bufsize=1)
             while True:
                 line=subproc.stderr.readline()
                 if not line:
@@ -879,7 +884,7 @@ class XmenuApp(GuiApp):
                     index=self.cmdnames.index(cmdname)
                     state=item["state"]
                     timestamp=item["timestamp"]
-                    timestampstring=timestamp.strftime("%Y%m%d %H:%m:%S")
+                    timestampstring=timestamp.strftime("%Y%m%d %H:%M:%S")
                     itemmsg=item["msg"]
 
                     if state=="ended":
@@ -941,12 +946,8 @@ class XmenuApp(GuiApp):
     # check queues in the main thread
     def check_queues(self) -> bool:
 
-        # create the threading lock 
-        self.lock=threading.Lock()
-        
-        # ebug check box
-        ##if self.dbgcheckbox.get()==1:
-        if self.debug_var==1:
+        # debug check box
+        if self.debug_var.get()==1:
             self.logger.setLevel(logging.DEBUG)
         else:
             self.logger.setLevel(self.loglevel)
